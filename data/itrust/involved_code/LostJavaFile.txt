@@ -1,0 +1,10 @@
+VisitDAO.java,
+ViewRequestsAction.java,
+DrugDAO.java,
+ReferralManagementAction.java,
+EmergecnyReportAction.java,
+ViewReportRequestsAction.java,
+HealthRecordDAO.java,
+DiseaseMediator
+
+Above java files are not found in this version of itrust.

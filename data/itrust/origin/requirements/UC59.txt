@@ -1,0 +1,19 @@
+UC59 Dependents Medical Records
+
+59.1 Preconditions:
+
+A patient is a registered user of the iTrust Medical Records system (UC2). The patient has authenticated himself or herself in the iTrust Medical Records system (UC3). The patient has a dependent (UC58).
+
+59.2 Main Flow:
+
+The patient chooses to request a medical records release. The patient can choose to view the request records release history page from either the patient's view or their dependents' view [S1]. From this page the patient can view their old requests or submit a new request [S2]. The patient may also choose to view old requests for their dependent(s) [S3] or submit a new records release request for dependent(s) [S4].
+
+59.3 Sub-flows:
+
+[S1] The option to switch views to a patient's dependent's view appears on the patient's request records release history page.
+[S2] The patient may view their own old release requests or submit a new personal records release request (UC56).
+[S3] The patient can view their dependents' past records release requests.
+[S4] The patient can request new medical records releases for dependents.
+59.4 Alternative Flows:
+
+[E1] If the patient does not have a dependent, they cannot view or release medical records for anyone but themselves.

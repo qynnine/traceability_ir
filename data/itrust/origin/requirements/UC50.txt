@@ -1,0 +1,21 @@
+UC50 Ward Management Use Case
+
+50.1 Preconditions:
+
+An HCP is a registered user of the iTrust Medical Records system (UC2) and has been assigned to a ward by the admin. A ward is a collection of rooms, where each room can hold one patient. The iTrust user has authenticated himself or herself in the iTrust Medical Records system (UC3).
+
+50.2 Main Flow:
+
+An HCP logs in to the system and queries the list of rooms at the hospital [S1]. The HCP then checks in a patient into an available room [S2]. An HCP can also remove a patient from a room [S3]. The admin can assign HCP to care for specific wards.
+
+50.3 Sub-flows:
+
+[S1]: The HCP can perform a query on all the rooms in the hospital. The query must allow for room status, ward, and any other relevant or important properties about the room. The HCP will be presented with a list of rooms matching the search criteria. Optionally, you may display a floor map highlighting the rooms that match the search criteria.
+Room status must be one of clean, needs cleaning, out of service.
+[S2]: The HCP can assign a patient to a room. The system must not allow a patient to be assigned to a room that is not being monitored by an HCP, so this can be handled by preventing the patient checkin, or (preferably), also enforcing that be completed along with this subflow.
+[S3]: The HCP can remove a patient from a room along with a reason for checkout (i.e. the patient checks out of the hospital or dies). The HCP may also move a patient from one room to another.
+[S4]: The HCP can change the room status to one of clean, needs cleaning, out of service.
+50.4 Alternative Flows:
+
+The hospital is full and a patient can not be assigned to a room. This will also apply if a room meeting the specified criteria is not available.
+

@@ -1,0 +1,22 @@
+UC58 Manage Dependency
+
+58.1 Preconditions:
+
+An HCP is a registered user of the iTrust Medical Records system (UC2). The HCP has authenticated himself or herself in the iTrust Medical Records system (UC3).
+
+58.2 Main Flow:
+
+The HCP selects the option to add a patient to the system [S1]. The HCP indicates that the new patient is a dependent [S2]. The HCP chooses an existing patient to assign as the new patient's representative [S3]. The HCP can add or remove a patient's dependent status [S4] The dependent patient cannot log in to the system themselves [S5].
+
+58.3 Sub-flows:
+
+[S1] The HCP selects the option to add a patient to the system. The HCP enters the first and last names for new patient.
+[S2] The HCP indicates that the new patient is a dependent.
+[S3] The HCP types in a patient MID [E1] for the patient assuming the role as personal representative and selects the representative patient from a list. [E2]
+[S4] The HCP types in a patient MID [E3] for a patient they would like to switch dependency status and sets the dependency status for that patient.
+[S5] The dependent user is not able to log into the system.
+58.4 Alternative Flows:
+
+[E1] If the representative patient MID is invalid, the new patient is not created and the user is prompted for a new MID.
+[E2] If the representative is a dependent user, an error message will display saying a dependent user cannot represent other patients.
+[E3] If a patient with the MID doesn't exist, the user will be prompted to enter another MID.

@@ -1,0 +1,1 @@
+RemoteMonitoringDAO getNumberOfDailyEntries patientMID dataType 

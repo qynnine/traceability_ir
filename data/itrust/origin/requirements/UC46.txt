@@ -1,0 +1,23 @@
+UC46 View Patient Group Reports Use Case
+
+46.1 Preconditions:
+
+An LHCP has authenticated him or herself in the iTrust Medical Records system (UC2).
+
+46.2 Main Flow:
+
+The LHCP requests a comprehensive report for all patients with a specified gender, age, and diagnosis [S1]. The LHCP is able to view the comprehensive group report [S2].
+
+46.3 Sub-flows:
+
+[S1] The LHCP chooses to view a report of all patients of a single or either gender, in a specified age range [E1], with none, one, or more diagnoses.
+[S2] The LHCP can view of the comprehensive patient report for the specified group, including the information below.
+All patient demographic information (address, phone, etc.), see (UC4) and Data Format 6.1.
+All diagnoses, including those not normally viewable by the requesting LHCP, see (UC11) and Data Format 6.5.
+All designated HCPs (MIDs and Names), see (UC6).
+All allergies, procedures, medications, office visits, and known relatives, see (UC11) and Data Format 6.5, 6.6.
+* [S3] The LHCP can download an XML file containing all patient information.
+
+46.4 Alternative Flows:
+
+[E1] The LHCP types an invalid age range and is prompted to try again.

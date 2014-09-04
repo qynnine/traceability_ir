@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<artifacts_collection>
+<collection_info>
+	<id>Requirements</id>
+	<name>Requirements</name>
+	<version>1.1</version>
+	<description>Requirements</description>
+	<content_location>external</content_location>
+</collection_info>
+<artifacts>
+	<artifact><id>UC1</id><content>Requirements/UC1.txt</content><parent_id/></artifact>
+	<artifact><id>UC2</id><content>Requirements/UC2.txt</content><parent_id/></artifact>
+	<artifact><id>UC3</id><content>Requirements/UC3.txt</content><parent_id/></artifact>
+	<artifact><id>UC4</id><content>Requirements/UC4.txt</content><parent_id/></artifact>
+	<artifact><id>UC5</id><content>Requirements/UC5.txt</content><parent_id/></artifact>
+	<artifact><id>UC6</id><content>Requirements/UC6.txt</content><parent_id/></artifact>
+	<artifact><id>UC8</id><content>Requirements/UC8.txt</content><parent_id/></artifact>
+	<artifact><id>UC9</id><content>Requirements/UC9.txt</content><parent_id/></artifact>
+	<artifact><id>UC10</id><content>Requirements/UC10.txt</content><parent_id/></artifact>
+	<artifact><id>UC11</id><content>Requirements/UC11.txt</content><parent_id/></artifact>
+	<artifact><id>UC12</id><content>Requirements/UC12.txt</content><parent_id/></artifact>
+	<artifact><id>UC13</id><content>Requirements/UC13.txt</content><parent_id/></artifact>
+	<artifact><id>UC15</id><content>Requirements/UC15.txt</content><parent_id/></artifact>
+	<artifact><id>UC16</id><content>Requirements/UC16.txt</content><parent_id/></artifact>
+	<artifact><id>UC17</id><content>Requirements/UC17.txt</content><parent_id/></artifact>
+	<artifact><id>UC18</id><content>Requirements/UC18.txt</content><parent_id/></artifact>
+	<artifact><id>UC19</id><content>Requirements/UC19.txt</content><parent_id/></artifact>
+	<artifact><id>UC21</id><content>Requirements/UC21.txt</content><parent_id/></artifact>
+	<artifact><id>UC23</id><content>Requirements/UC23.txt</content><parent_id/></artifact>
+	<artifact><id>UC24</id><content>Requirements/UC24.txt</content><parent_id/></artifact>
+	<artifact><id>UC25</id><content>Requirements/UC25.txt</content><parent_id/></artifact>
+	<artifact><id>UC26</id><content>Requirements/UC26.txt</content><parent_id/></artifact>
+	<artifact><id>UC27</id><content>Requirements/UC27.txt</content><parent_id/></artifact>
+	<artifact><id>UC28</id><content>Requirements/UC28.txt</content><parent_id/></artifact>
+	<artifact><id>UC29</id><content>Requirements/UC29.txt</content><parent_id/></artifact>
+	<artifact><id>UC30</id><content>Requirements/UC30.txt</content><parent_id/></artifact>
+	<artifact><id>UC31</id><content>Requirements/UC31.txt</content><parent_id/></artifact>
+	<artifact><id>UC32</id><content>Requirements/UC32.txt</content><parent_id/></artifact>
+	<artifact><id>UC33</id><content>Requirements/UC33.txt</content><parent_id/></artifact>
+	<artifact><id>UC34</id><content>Requirements/UC34.txt</content><parent_id/></artifact>
+	<artifact><id>UC35</id><content>Requirements/UC35.txt</content><parent_id/></artifact>
+	<artifact><id>UC36</id><content>Requirements/UC36.txt</content><parent_id/></artifact>
+	<artifact><id>UC37</id><content>Requirements/UC37.txt</content><parent_id/></artifact>
+	<artifact><id>UC38</id><content>Requirements/UC38.txt</content><parent_id/></artifact>
+</artifacts>
+</artifacts_collection>

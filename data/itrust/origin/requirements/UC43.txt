@@ -1,0 +1,41 @@
+UC43 View Activity Feed Use Case
+
+43.1 Preconditions:
+
+The user (patient) has authenticated himself or herself in the iTrust Medical Records system (UC3).
+
+43.2 Main Flow:
+
+After the patient logs in, an activity feed is displayed [S1, S2].
+
+43.3 Sub-flows:
+
+[S1] The activity feed shall show the information below (if the accessor is an LHCP, the accessor's name in the displayed activity shall be linked to the LHCP's contact information):
+who/when created or disabled the patient,
+who/when accessed the patient's demographic information (other then DLHCP),
+who/when accessed/edited the patient's medical records (i.e., personal health records) (other then DLHCP),
+who/when documented or edited the patient's office visits (other then DLHCP),
+who/when declared/undeclared the patient's personal representative,
+who/when analyzed risk of chronic disease for the patient (other then DLHCP),
+who/when proactively determined needed patient care for the patient (other then DLHCP),
+who/when viewed the patient's prescription report (other then DLHCP),
+who/when viewed the patient's emergency electronic health record (other then DLHCP),
+who/when scheduled an appointment with the patient,
+who/when accessed the patient's comprehensive reports (other then DLHCP),
+who/when viewed laboratory procedure status of the patient or edited laboratory procedure of the patient (other then DLHCP),
+who/when accessed the patient's information (name, address, and date of last office visit) (other then DLHCP),
+who/when sent the patient a message,
+who/when proactively confirmed prescription-renewal needs for the patient (other then DLHCP),
+who/when referred the patient for consultations,
+who/when added/deleted the patient from monitoring list,
+who/when prescribed drug to the patient (other then DLHCP),
+who/when reported remote monitoring information for the patient,
+the date and time of each of the patient's successful authentications.
+who/when referred a patient to another HCP
+who/when marked a lab procedure as completed.
+[S2] Only the most recent 20 activities are listed in the user page after login. If there are more than the currently listed activities, a link of “Older Activities” shall be displayed [E1]. The patient can choose to click this link. The system shall append 20 more activities to the end of the currently listed activities on the same page. If there still are more than the currently listed activities, a link of “Older Activities” shall be further displayed [E1] and so on.
+43.4 Alternative Flows:
+
+[E1] If there are no older activities besides the currently listed activities, no link of “Older Activities” is displayed.
+
+4300	 View Activity Feed	 Patient	 [empty]	 43	 View	 None	 No

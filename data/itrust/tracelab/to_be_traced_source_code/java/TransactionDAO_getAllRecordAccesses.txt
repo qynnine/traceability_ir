@@ -1,0 +1,1 @@
+TransactionDAO getAllRecordAccesses patientID dlhcpID getByRole 

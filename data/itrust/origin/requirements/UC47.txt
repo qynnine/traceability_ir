@@ -1,0 +1,23 @@
+UC47 Find an Expert Use Case
+
+47.1 Preconditions:
+
+A patient has authenticated him or herself in the iTrust Medical Records system (UC2).
+
+47.2 Main Flow:
+
+The patient needs to find an HCP with a particular specialty (OB/GYN, Surgeon, etc), and selects that specialty from a drop-down list [S1][S2].
+OB/GYN
+Surgeon
+Heart Surgeon
+Pediatrician
+General Physician
+A table of all of the hospitals with the same leading three X digits of the patient's stored home zip code or of the entered zip code that contain an HCP with that specialty is displayed, including their name and address. Under each hospital, the name and contact e-mail of the specialist is displayed [E1].
+The event is logged.
+47.3 Sub-flows:
+
+[S1] The patient uses a text field to change the radius in which hospitals are discovered. The radius is a rough measure of distance from near (exact zip code) to far (zip code only matches on the first digit).
+[S2] The patient has the option to enter another zip code instead of using their home zip code.
+47.4 Alternative Flows
+
+[E1] An error message, “Invalid zip code” is displayed if the user enters a zip code that does not conform to the data format for Zip Code in Data Format 6.1: Patient.

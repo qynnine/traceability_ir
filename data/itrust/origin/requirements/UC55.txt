@@ -1,0 +1,23 @@
+UC55 Immunization Report
+
+55.1 Preconditions:
+
+An HCP or patient is a registered user of the iTrust Medical Records system (UC2). The HCP or patient has authenticated himself or herself in the iTrust Medical Records system (UC3).
+
+55.2 Main Flow:
+
+The HCP selects a patient [S1] and selects the option to view the immunization records for the patient [S2]. The patient selects the option to view their own immunization report [S2]. The patient selects one of their dependents to view their patient immunization reports [S3].
+
+55.3 Sub-flows:
+
+[S1] The health care personnel enters a MID [E1] of a patient and confirms their selection [E2].
+[S2] The immunization report for the selected patient is displayed, listing the immunizations beginning from the most recent [E3].
+If the patient is older than the designated age for school age, then only the immunization report is listed.
+If the patient is of school-age then along with the immunization report, a list of the required immunization as listed by NC State School Systems (http://www.immunize.nc.gov/schools/schools.htm).
+[S3] The immunization report for the selected dependent is displayed, listing immunizations beginning from the most recent.
+If the patient is older than the designated age for school age, then only the immunization report is listed.
+If the patient is of school-age then along with the immunization report, a list of the required immunization as listed by NC State School Systems (http://www.immunize.nc.gov/schools/schools.htm).
+55.4 Alternative Flows:
+
+[E1] The health care professional types an invalid medical identification number and is prompted to try again.
+[E2] The patient chosen is not the desired patient. The health care professional does not confirm the selection and is prompted to try again.

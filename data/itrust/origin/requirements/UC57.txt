@@ -1,0 +1,17 @@
+UC57 Change Password
+
+57.1 Preconditions:
+
+A User is a registered user of the iTrust Medical Records system (UC2). The User has authenticated himself or herself in the iTrust Medical Records system (UC3).
+
+57.2 Main Flow:
+
+The User selects the option to change his or her password [S1]. The User fills out required information to change the password [S2].
+
+57.3 Sub-flows:
+
+[S1] The user clicks link to change password.
+[S2] The user enters the current password and the new password [E1].
+57.4 Alternative Flows:
+
+If the new password is less than 5 characters long and does not contain at least 1 letter and 1 number, the user is prompted to enter another appropriate password.

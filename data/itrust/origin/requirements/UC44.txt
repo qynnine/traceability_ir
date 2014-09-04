@@ -1,0 +1,29 @@
+UC44 Patient Specific Instructions
+
+44.1 Preconditions:
+
+An HCP is a registered user of the iTrust Medical Records system (UC2). A Patient is a registered user of the iTrust Medical Records system (UC1). The iTrust user (HCP or patient) has authenticated himself or herself in the iTrust Medical Records system (UC3).
+
+44.2 Main Flow:
+
+An HCP chooses to add [S1] or edit [S2] patient specific instructions document an office visit or modify an already documented office visit. The HCP enters a MID or a patient [E1] or name of a patient and confirms their selection [E2]. And HCP chooses to add [S1] or edit [S2] patient specific instructions. A patient chooses to view their patient specific instructions by selecting a link named “Patient Specific Instructions” under the View heading in the left hand menu [S3].
+
+44.3 Sub-flows:
+
+[S1] The HCP enters a MID [E1] or name of a patient and confirms their selection [E2]. The HCP enters the following information under a section for patient specific instructions:
+a descriptive name for the instructions (required),
+a URL to an external website containing patient specific instructions (required),
+and additional comments for the patient (required).
+After entering all required information, the HCP selects the Add button [E3][E4][E5]. All events are logged (UC5) and the HCP remains on the office visit page to verify their changes [S4](UC11).
+
+[S2] HCPs can return to an office visit and modify any patient specific instruction information or delete one or more patient specific instructions [E3][E4][E5]. The editing event and deletion events are logged (UC5) and the HCP remains on the office visit page to verify their changes [S4](UC11).
+[S3] Patient specific instructions are listed for a patient. In each row, the descriptive name is a link to the URL containing patient specific instructions. The row also contains the HCP that provided the instructions, the HCP comments, the office visit date, and the latest add or modification date. the office visit date should link to the patient's view of the office visit (UC9). The patient's access of the instructions are logged (UC5).
+[S4] Patient specific instructions for an office visit are listed. In each row, the descriptive name is a link to the URL containing patient specific instructions. The row also contains the HCP's comments, latest add or modification date, and an option to edit and delete the patient specific instructions [S2].
+44.4 Alternative Flows:
+
+[E1] The HCP types an invalid medical identification number and is prompted to try again.
+[E2] The patient chosen is not the desired patient. The health care personnel does not confirm the selection and is prompted to try again.
+[E3] The fields for this use case accept the following information: letters (upper and lower case), numbers, #, ;, ?, -, ', ., :, comma, !, /, blankspace and carriage return. The HCP is notified if any of the fields contain characters that are not in the above list. When notifying the user of their error, all fields are populated with the previously entered input so that the HCP can edit their entry.
+[E4] The HCP is notified that the required fields contain too many characters. The following are the maximum lengths: name - 100 characters; url - 250 characters; comments - 500 characters.
+[E5] The HCP is notified that required fields contain no input. All fields are populated with the previously enter input so that the HCP can edit their entry.
+

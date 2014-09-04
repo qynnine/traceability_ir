@@ -1,0 +1,20 @@
+UC45 Flow of Events for the Request bio surveillance Use Case
+
+45.1 Precondition:
+
+An LHCP or Public Health Agent (or PHA) is a registered user of the iTrust Medical Records system (UC2). The iTrust user has authenticated himself or herself in the iTrust Medical Records system (UC3).
+
+45.2 Main Flow:
+
+A LHCP or PHA chooses to examine recent trends in diagnoses [S1] or to determine if an ailment is reaching epidemic proportions in a given area. Allowable epidemic queries are malaria [S2] and influenza [S3]. All events are logged (UC5).
+
+45.3 Sub-flows:
+
+[S1] The user can choose to examine recent trends in diagnoses. The user can choose any diagnosis code [E1] and type in the desired patient zip code [E2] and a start and end date [E3]. The LHCP is then provided counts for the specified time period as well as a bar chart. The counts shown include: (1) the number of cases for the exact zip code provided; and (2) the number of cases for the region (region defined by the zip code that match the first three numbers in the provided zip code (e.g. if zip code 27695 is provided, all data with zip code 276xx is analyzed, where each x is any digit from 0-9).
+[S2] The user can choose a malaria diagnosis [E1] and type in the desired zip code [E2] and a week (which may be selected by start and end date, start date only, calendar control, dropdown, or any other suitable means) within the last year [E3]. The data in the database is analyzed according to the malaria epidemic heuristic to determine if an epidemic is occurring in the region defined by the zip code that match the first three numbers in the provided zip code (e.g. if zip code 27695 is provided, all data with zip code 276xx is analyzed, where each x is any digit from 0-9). The LHCP is provided with a bar chart of diagnosis counts during the specified time period as well as a yes/no answer on whether an epidemic is occurring during any consecutive two weeks during the time period.
+[S3] The user can choose a influenza diagnosis [E1] and type in the desired zip code [E2] and a week (which may be selected by start and end date, start date only, calendar control, dropdown, or any other suitable means) within the last year [E3]. The data in the database is analyzed according to the influenza epidemic heuristic to determine if an epidemic is occurring in the region defined by the zip code that match the first three numbers in the provided zip code (e.g. if zip code 27695 is provided, all data with zip code 276xx is analyzed, where each x is any digit from 0-9). The LHCP is provided a bar chart of diagnosis counts during the specified time period as well as a yes/no answer on whether an epidemic is occurring during any consecutive two weeks during the time period.
+45.4 Alternative Flows:
+
+[E1] The HCP types an invalid diagnosis code and is prompted to try again.
+[E2] The HCP types a invalid zip code (zip codes are five digits) and is prompted to try again.
+[E3] The HCP types an invalid date and is prompted to try again.

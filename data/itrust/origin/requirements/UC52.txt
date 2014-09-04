@@ -1,0 +1,22 @@
+UC52 View Basic Health Metrics
+
+52.1 Preconditions:
+
+An HCP or patient is a registered user of the iTrust Medical Records system (UC2). The HCP or patient has authenticated himself or herself in the iTrust Medical Records system (UC3).
+
+52.2 Main Flow:
+
+The HCP selects a patient [S1] and selects the option to view the basic health metrics for the patient [S2]. The patient selects the option to view their own basic health metrics [S2].
+
+52.3 Sub-flows:
+
+[S1] The health care personnel enters a MID [E1] of a patient and confirms their selection [E2].
+[S2] The basic health metrics are displayed in order by office visit date with the most recent office visit first. There are three possible tables that correspond to the three age ranges that determine the metrics collected during an office visit [E3]:
+Zero to less than Three Years of Age: length, weight, head circumference, and household smoking status
+Three Years of Age to less than Twelve Years of Age: height, weight, blood pressure, and household smoking status
+Twelve Years of Age and Older: height, weight, blood pressure, household smoking status, patient smoking status, high density lipoproteins (HDL) cholesterol, low density lipoproteins (LDL) cholesterol, and Triglycerides.in a table with a different table for each age range as described in UC51. Each table row represents the metrics from a given office visit date.
+52.4 Alternative Flows:
+
+[E1] The health care professional types an invalid medical identification number and is prompted to try again.
+[E2] The patient chosen is not the desired patient. The health care professional does not confirm the selection and is prompted to try again.
+[E3] If there is no data for a given age range, there should be no table for that age range.

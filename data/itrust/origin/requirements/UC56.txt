@@ -1,0 +1,34 @@
+UC56 Medical Records Release
+
+56.1 Preconditions:
+
+An HCP or patient is a registered user of the iTrust Medical Records system (UC2). The HCP or patient has authenticated himself or herself in the iTrust Medical Records system (UC3).
+
+56.2 Main Flow:
+
+The patient selects the option to request a release their medical forms [S1]. The patient fills out the release form [S2]. The patient’s primary HCP logs in. The HCP is notified of the patient’s release request [S3].
+
+56.3 Sub-flows:
+
+[S1] The patient chooses to release medical information.
+[S2] The patient fills out the following fields in the medical records release form [E1]:
+The name of the doctor for records to be released to
+The phone number of the doctor for records to be released to
+The email address of the doctor for records to be released to
+The name of the hospital from which records are to be retrieved
+The name of the hospital to which the patient wants to release their form
+The address of the hospital to which the patient wants to release their form
+The reason they want to release their form
+The date of the request
+Signature of the patient requesting the release
+[S3] The patient’s primary HCP and all UAPs associated with the hospital the patient selected see notification about the patient’s request for their medical records to be released.
+The patient’s primary HCP and any UAPs can confirm [S4] or deny [S5] release of the medical forms.
+The patient’s primary HCP and any UAPs can download an xml file containing patient information, HCP information, and basic health metrics associated with the patient at the date that the patient requested the metrics so that the records can be sent to another hospital.
+[S4] The patient is notified that his/her medical forms have been successfully released.
+The patient can view a history of his/her medical form release requests, where the approved release request is displayed.
+[S5] The patient is notified that his/her medical form release request has been denied.
+The patient can view a history of his/her medical form release requests, where the denied release request is displayed.
+56.4 Alternative Flows:
+
+[E1] If the patient fills out the release form with invalid input, the patient shall be re-prompted for valid input.
+

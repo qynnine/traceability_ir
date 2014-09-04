@@ -1,0 +1,20 @@
+UC51 Enter/edit Basic Health Metrics
+
+51.1 Preconditions:
+
+An HCP is a registered user of the iTrust Medical Records system (UC2). The HCP has authenticated himself or herself in the iTrust Medical Records system (UC3). The HCP has started documenting an office visit for the patient (UC11).
+
+51.2 Main Flow:
+
+The HCP enters health metrics appropriate for the age of the patient: under 3 years [S1], between 3 years and under 12 years [S2], and 12 and over [S3] (Data Format 6.4.5) [E1]. All ages are calculated as calendar years between the date of the office visit date and the patient’s birthdate.
+
+51.3 Sub-flows:
+
+[S1] If the patient is under three calendar years of age, the HCP enters the length, weight, head circumference, and household smoking status [S4].
+[S2] If the patient is three calendar years of age or older and under 12 calendar years of age, the HCP enters the height, weight, blood pressure, and household smoking status [S4].
+[S3] If the patient is 12 calendar years of age or older, the HCP enters the height, weight, blood pressure, household smoking status [S4], patient smoking status [S5], high density lipoproteins (HDL) cholesterol, low density lipoproteins (LDL) cholesterol, and Triglycerides.
+[S4] The HCP selects one of the following menu options to specify the smoking status of household members: 1 - non-smoking household, 2 - outdoor smokers, 3 - indoor smokers.
+[S5] The HCP selects one of the following menu options to specify the smoking status of the patient: 1 - Current every day smoker; 2 - Current some day smoker; 3 - Former smoker; 4 - Never smoker; 5 - Smoker, current status unknown; 9 - unknown if ever smoked.
+10.4 Alternative Flows:
+
+[E1] An error message is displayed describing what entries do not conform to appropriate data formats.

@@ -1,0 +1,1 @@
+PatientDAO checkDeclaredHCP pid hcpid 

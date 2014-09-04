@@ -1,0 +1,19 @@
+UC53 BMI Calculation
+
+53.1 Preconditions:
+
+An HCP or patient is a registered user of the iTrust Medical Records system (UC2). The HCP or patient has authenticated himself or herself in the iTrust Medical Records system (UC3).
+
+53.2 Main Flow:
+
+The HCP selects a patient [S1] and selects the option to view the basic health metrics for the patient [S2]. The patient selects the option to view their own basic health metrics, including their calculated BMI and Weight Status [S2].
+
+53.3 Sub-flows:
+
+[S1] The health care personnel enters a MID [E1] of a patient and confirms their selection [E2].
+[S2] The basic health metrics are displayed in order by office visit date with the most recent office visit first as specified in UC52. There are three possible tables that correspond to the three age ranges that determine the metrics collected during an office visit [E3].
+In addition to the health metrics listed in UC52, an extra column for both BMI and Weight Status should be displayed in every age category.
+53.4 Alternative Flows:
+
+[E1] The health care professional types an invalid medical identification number and is prompted to try again.
+[E2] The patient chosen is not the desired patient. The health care professional does not confirm the selection and is prompted to try again.

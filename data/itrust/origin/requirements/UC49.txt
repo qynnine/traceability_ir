@@ -1,0 +1,15 @@
+UC49 Patient Education Use Case
+
+49.1 Preconditions
+
+An HCP is a registered user of the iTrust Medical Records system (UC2). A Patient is a registered user of the iTrust Medical Records system(UC1). The iTrust user has authenticated himself or herself in the iTrust Medical Records system (UC3).
+
+49.2 Main Flow
+
+An admin can enter new diagnosis codes, along with URLs to pages containing more information about the diagnosis. A patient will be presented with the link for more information whenever that diagnosis code is displayed in their information [S3].
+
+49.3 Sub-flows
+
+[S1]: An admin or HCP can view the diagnosis codes currently in the database, along with the URL associated with a particular diagnosis code.
+[S2]: An admin or HCP can add/edit a URL to a diagnosis code.
+[S3]: Any time a patient is presented with a diagnosis code, they should also be presented with a link to a page containing more information about the diagnosis. See also UC9, UC10, UC15, UC21, UC45.

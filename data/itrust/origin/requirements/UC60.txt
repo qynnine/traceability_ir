@@ -1,0 +1,41 @@
+UC60 Office Visit Billing
+
+60.1 Preconditions:
+
+An HCP and patient are registered users of the iTrust Medical Records system (UC2). The HCP and patient have authenticated themselves in the iTrust Medical Records system (UC3). The HCP has started documenting an office visit for a patient (UC11).
+
+60.2 Main Flow:
+
+When creating a new office visit the HCP chooses the type of visit from the existing appointment types and selects to send a bill to the patient for the valued amount of his/her visit (UC11) [S1]. The patient logs into the iTrust system and receives a notification for the billing statement. The patient follows this notification to display a page of all billing statements, submitted and new [S2]. The patient may view [S3] and pay the bill [S4] [S5].
+
+60.3 Sub-flows:
+
+[S1] The HCP can instead select the type of office visit but elect not to send the patient a bill. The remaining sub-flows of this use case become moot.
+[S2] Patients may also access billing statements through a navigation link. Statements are ordered in descending order by the date on which the HCP submitted the bill accompanied by the name of the documenting HCP.
+[S3] Opening a statement displays a page with at least the following information:
+Date of statement submission by HCP
+Status of billing statement
+Patient name
+Office visit date
+Office visit hospital
+Type of office visit
+Any associated office visit notes
+[S4] The patient is given the option to pay by way of credit card or through insurance.
+If choosing to pay by credit card, the patient fills out the following information [E1]:
+Cardholder's name
+Billing address
+Credit card type (Visa, Mastercard, American Express, etc.)
+Credit card number
+Card security (CVV) code
+If instead submitting a claim to insurance, the patient provides the following information [E1]:
+Policy holder's name
+Policy ID
+Insurance provider name
+Insurance provider address
+Insurance provider phone number
+Once a payment is chosen and confirmed, the statement is marked as submitted.
+[S5] The patient may choose to cancel before submitting credit card or insurance information. The patient is redirected back to the billing statements page and the status of the cancelled statement remains unchanged.
+60.4 Alternative Flows:
+
+[E1] An error message is displayed describing what entries do not conform to appropriate data formats, detailed here.
+
