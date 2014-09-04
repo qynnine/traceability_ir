@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eclipse-userlibraries>
+  <library name="lib">
+    <archive path="/Users/niejia/Documents/IdeaProjects/traceability_ir/lib/tools.jar" />
+    <archive path="/Users/niejia/Documents/IdeaProjects/traceability_ir/lib/servlet.jar" />
+    <archive path="/Users/niejia/Documents/IdeaProjects/traceability_ir/lib/jmwn-1.2.jar" />
+    <archive path="/Users/niejia/Documents/IdeaProjects/traceability_ir/lib/junit-4.10.jar" />
+    <archive path="/Users/niejia/Documents/IdeaProjects/traceability_ir/lib/annotations.jar" />
+    <archive path="/Users/niejia/Documents/IdeaProjects/traceability_ir/lib/dom4j-1.6.1.jar" />
+    <archive path="/Users/niejia/Documents/IdeaProjects/traceability_ir/lib/mongo-2.9.3.jar" />
+    <archive path="/Users/niejia/Documents/IdeaProjects/traceability_ir/lib/charts4j-1.3.jar" />
+    <archive path="/Users/niejia/Documents/IdeaProjects/traceability_ir/lib/jcommon-1.0.23.jar" />
+    <archive path="/Users/niejia/Documents/IdeaProjects/traceability_ir/lib/stdlib-package.jar" />
+    <archive path="/Users/niejia/Documents/IdeaProjects/traceability_ir/lib/jfreechart-1.0.19.jar" />
+    <archive path="/Users/niejia/Documents/IdeaProjects/traceability_ir/lib/sqlite-jdbc-3.8.5-pre1.jar" />
+    <archive path="/Users/niejia/Documents/IdeaProjects/traceability_ir/lib/mysql-connector-java-5.1.7-bin.jar" />
+    <archive path="/Users/niejia/Documents/IdeaProjects/traceability_ir/lib/org.eclipse.jdt.core_3.7.0.v_B61.jar" />
+    <archive path="/Users/niejia/Documents/IdeaProjects/traceability_ir/lib/org.eclipse.osgi_3.7.0.v20110613.jar" />
+    <archive path="/Users/niejia/Documents/IdeaProjects/traceability_ir/lib/org.eclipse.ui_3.7.0.I20110602-0100.jar" />
+    <archive path="/Users/niejia/Documents/IdeaProjects/traceability_ir/lib/org.eclipse.core.jobs_3.5.100.v20110404.jar" />
+    <archive path="/Users/niejia/Documents/IdeaProjects/traceability_ir/lib/org.eclipse.text_3.5.100.v20110505-0800.jar" />
+    <archive path="/Users/niejia/Documents/IdeaProjects/traceability_ir/lib/org.eclipse.core.runtime_3.7.0.v20110110.jar" />
+    <archive path="/Users/niejia/Documents/IdeaProjects/traceability_ir/lib/org.eclipse.equinox.common_3.6.0.v20110523.jar" />
+    <archive path="/Users/niejia/Documents/IdeaProjects/traceability_ir/lib/org.eclipse.equinox.preferences_3.4.0.v20110502.jar" />
+    <archive path="/Users/niejia/Documents/IdeaProjects/traceability_ir/lib/org.eclipse.core.resources_3.7.100.v20110510-0712.jar" />
+    <archive path="/Users/niejia/Documents/IdeaProjects/traceability_ir/lib/org.eclipse.core.contenttype_3.4.100.v20110423-0524.jar" />
+  </library>
+  <library name="stdlib-package">
+    <archive path="/Users/niejia/Documents/IdeaProjects/Algorithms/stdlib-package.jar" />
+  </library>
+</eclipse-userlibraries>
+
