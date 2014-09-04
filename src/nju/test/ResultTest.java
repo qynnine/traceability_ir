@@ -1,6 +1,6 @@
 package nju.test;
 
-import nju.Constants;
+import nju.Path;
 import nju.component.TXTPaser;
 import nju.component.metrics.MetricComputation;
 import nju.component.metrics.Result;
@@ -18,8 +18,8 @@ public class ResultTest {
     private String method_1 = "AccessDAO::setSessionTimeoutMins";
     private String method_2 = "AuthDAO::recordResetPasswordFailure";
 
-    private SimilarityMatrix similarity = TXTPaser.createSimilarityMatrix(Constants.SIMILARITY_PATH);
-    private SimilarityMatrix ansrMatrix = TXTPaser.createSimilarityMatrix(Constants.Oracle);
+    private SimilarityMatrix similarity = TXTPaser.createSimilarityMatrix(Path.SIMILARITY_TXT);
+    private SimilarityMatrix ansrMatrix = TXTPaser.createSimilarityMatrix(Path.ORACLE_TXT);
 
     private MetricComputation metricComputation = new MetricComputation(similarity, ansrMatrix);
     private Result constCutResult = metricComputation.compute(RankStrategy.CONSTANT_CUT);

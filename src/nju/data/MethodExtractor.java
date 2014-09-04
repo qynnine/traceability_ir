@@ -1,9 +1,9 @@
 package nju.data;
 
-import nju.Constants;
+import nju.Path;
 import nju._;
-import nju.data.model.OracleMatrix;
 import nju.data.model.Method;
+import nju.data.model.OracleMatrix;
 
 import java.io.File;
 import java.util.ArrayList;
@@ -46,8 +46,8 @@ public class MethodExtractor {
     }
 
     public static void main(String[] args) {
-        OracleMatrix ansrMatrix = new OracleMatrix(Constants.REQS_PATH);
-        MethodExtractor methodExtractor = new MethodExtractor(Constants.INVOLVED_JAVA_PATH, ansrMatrix.getMethod());
-        methodExtractor.exportMethods(Constants.TRACELAB_JAVA_PATH);
+        OracleMatrix ansrMatrix = new OracleMatrix(Path.ORACLE_TXT);
+        MethodExtractor methodExtractor = new MethodExtractor(Path.INVOLVED_JAVA, ansrMatrix.getMethod());
+        methodExtractor.exportMethods(Path.TRACELAB_JAVA);
     }
 }

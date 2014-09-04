@@ -1,6 +1,6 @@
 package nju.data;
 
-import nju.Constants;
+import nju.Path;
 import nju._;
 import nju.data.model.OracleMatrix;
 
@@ -45,8 +45,8 @@ public class JspExtractor {
     }
 
     public static void main(String[] args) {
-        OracleMatrix ansrMatrix = new OracleMatrix(Constants.REQS_PATH);
-        JspExtractor jspExtractor = new JspExtractor(Constants.INVOLVED_JSP_PATH, ansrMatrix.getJsp());
-        jspExtractor.exportJsp(Constants.TRACELAB_JSP_PATH);
+        OracleMatrix ansrMatrix = new OracleMatrix(Path.ORACLE_TXT);
+        JspExtractor jspExtractor = new JspExtractor(Path.INVOLVED_JSP, ansrMatrix.getJsp());
+        jspExtractor.exportJsp(Path.TRACELAB_JSP);
     }
 }

@@ -1,6 +1,6 @@
 package nju.data;
 
-import nju.Constants;
+import nju.Path;
 import nju._;
 import nju.data.model.OracleMatrix;
 
@@ -64,10 +64,10 @@ public class FileFilter {
     }
 
     public static void main(String[] args) {
-        OracleMatrix ansrMatrix = new OracleMatrix(Constants.REQS_PATH);
+        OracleMatrix ansrMatrix = new OracleMatrix(Path.ORACLE_TXT);
         FileFilter fileFilter = new FileFilter(ansrMatrix);
-        fileFilter.filterJavaFiles(Constants.JAVA_PATH, Constants.INVOLVED_JAVA_PATH);
-        fileFilter.filterJspFiles(Constants.JSP_PATH, Constants.INVOLVED_JSP_PATH);
-        fileFilter.filterUsecases(Constants.REQUIREMENT_PATH, Constants.INVOLVED_REQUIREMENT_PATH);
+        fileFilter.filterJavaFiles(Path.JAVA, Path.INVOLVED_JAVA);
+        fileFilter.filterJspFiles(Path.JSP, Path.INVOLVED_JSP);
+        fileFilter.filterUsecases(Path.ORIGIN_REQUIREMENT, Path.INVOLVED_REQUIREMENT);
     }
 }

@@ -68,9 +68,10 @@ public class Sqlite3 {
             System.exit(0);
         }
         System.out.println("Operation done successfully");
-        _.writeFile(sb.toString(), Constants.REQS_PATH);
+        // creat a txt file first, then read from txt
+        _.writeFile(sb.toString(), Path.SQLITE3_READ_TMP);
         SimilarityMatrix similarityMatrix = new SimilarityMatrix();
-        return TXTPaser.createSimilarityMatrix(Constants.REQS_PATH);
+        return TXTPaser.createSimilarityMatrix(Path.SQLITE3_READ_TMP);
     }
 
     public static void writeSimilarityMatrixToDB(SimilarityMatrix matrix, String outputPath) {
@@ -105,7 +106,12 @@ public class Sqlite3 {
                     Double score = matrix.getScoreForLink(sourceId, usecase);
                     sb_score.append(", ");
                     sb_score.append("\'");
-                    sb_score.append(score);
+                    if (score == null) {
+                        sb_score.append("");
+                    } else {
+                        sb_score.append("x");
+                    }
+//                    sb_score.append(score);
                     sb_score.append("\'");
                 }
 

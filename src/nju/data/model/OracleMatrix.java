@@ -1,6 +1,6 @@
 package nju.data.model;
 
-import nju.Constants;
+import nju.Path;
 import nju._;
 
 import java.util.LinkedHashSet;
@@ -112,7 +112,7 @@ public class OracleMatrix {
     }
 
     public static void main(String[] args) {
-        OracleMatrix ansrMatrix = new OracleMatrix(Constants.REQS_PATH);
+        OracleMatrix ansrMatrix = new OracleMatrix(Path.ORACLE_TXT);
         System.out.println(ansrMatrix);
     }
 }

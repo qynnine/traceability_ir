@@ -13,8 +13,8 @@ public class Demo {
 
     public static void main(String[] args) {
 
-        SimilarityMatrix matrix = Sqlite3.readSimilarityMatrixFromDB(Constants.MATRIX_DB_PATH);
-        SimilarityMatrix oracle = Sqlite3.readSimilarityMatrixFromDB(Constants.ORACLE_DB_PATH);
+        SimilarityMatrix matrix = Sqlite3.readSimilarityMatrixFromDB(Path.MATRIX_SCORE_DB);
+        SimilarityMatrix oracle = Sqlite3.readSimilarityMatrixFromDB(Path.ORACLE_LITE_DB);
 
         /*
         SimilarityMatrix can be printed in console.
@@ -62,6 +62,6 @@ public class Demo {
 
 
 
-//        Sqlite3.writeSimilarityMatrixToDB(result.getMatrix(), Constants.DB_OUTPUT_PATH);
+//        Sqlite3.writeSimilarityMatrixToDB(result.getMatrix(), Path.OUTPUT_DB);
     }
 }

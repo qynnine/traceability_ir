@@ -1,4 +1,4 @@
 barchart.jsp,
-hcpConsultati
+hcpConsultation.jsp
 
 Above jsp files are not found in this version of itrust. But can be found in iTrust-10.

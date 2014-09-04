@@ -64,50 +64,91 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Demo.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="Demo.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/nju/Demo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="13" selection-start="267" selection-end="267" vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="1241">
+            <state line="59" column="0" selection-start="1970" selection-end="1970" vertical-scroll-proportion="0.724537" vertical-offset="622" max-vertical-offset="1173">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Sqlite3.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/nju/Sqlite3.java">
+      <file leaf-file-name="TermDocumentMatrix.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/nju/type/TermDocumentMatrix.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="36" selection-start="442" selection-end="442" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2091">
-              <folding>
-                <marker date="1409757099000" expanded="true" signature="1194:1212" placeholder="SELECT * FRO..reqs..." />
-                <marker date="1409757099000" expanded="true" signature="3103:3217" placeholder="CREATE TABLE..reqs..." />
-                <marker date="1409757099000" expanded="true" signature="3760:3893" placeholder="INSERT INTO ..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ResultTest.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/nju/test/ResultTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="13" selection-start="345" selection-end="345" vertical-scroll-proportion="0.2793427" vertical-offset="0" max-vertical-offset="5304">
+            <state line="7" column="13" selection-start="93" selection-end="93" vertical-scroll-proportion="0.0" vertical-offset="3733" max-vertical-offset="4165">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/nju/_.java">
+      <file leaf-file-name="StringHashSet.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/nju/type/StringHashSet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="13" selection-start="544" selection-end="544" vertical-scroll-proportion="0.0" vertical-offset="391" max-vertical-offset="2040">
+            <state line="7" column="13" selection-start="99" selection-end="99" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Constants.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/nju/Constants.java">
+      <file leaf-file-name="TXTPaser.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/nju/component/TXTPaser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="13" selection-start="68" selection-end="68" vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="714">
+            <state line="14" column="1" selection-start="223" selection-end="223" vertical-scroll-proportion="0.0" vertical-offset="186" max-vertical-offset="680">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="VSM.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/nju/component/VSM.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="13" selection-start="151" selection-end="151" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2278">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="XMLParser.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/nju/component/XMLParser.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="16" column="13" selection-start="332" selection-end="332" vertical-scroll-proportion="0.0" vertical-offset="360" max-vertical-offset="867">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Method.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/nju/data/model/Method.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="13" selection-start="131" selection-end="131" vertical-scroll-proportion="0.0" vertical-offset="411" max-vertical-offset="918">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Path.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/nju/Path.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="31" column="57" selection-start="1515" selection-end="1515" vertical-scroll-proportion="0.0" vertical-offset="299" max-vertical-offset="731">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PrecisionRecallChart.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/nju/component/visualization/PrecisionRecallChart.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="24" column="13" selection-start="649" selection-end="649" vertical-scroll-proportion="0.0" vertical-offset="1036" max-vertical-offset="1530">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Sqlite3Test.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/nju/test/Sqlite3Test.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="13" selection-start="168" selection-end="168" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="425">
               <folding />
             </state>
           </provider>
@@ -120,8 +161,31 @@
       <setting name="OPEN_NEW_TAB" value="false" />
     </FindUsagesManager>
   </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/src/nju/data/TraceLab.java" />
+        <option value="$PROJECT_DIR$/src/nju/type/Path.java" />
+        <option value="$PROJECT_DIR$/src/nju/data/model/OracleMatrix.java" />
+        <option value="$PROJECT_DIR$/src/nju/data/FileFilter.java" />
+        <option value="$PROJECT_DIR$/src/nju/data/JspExtractor.java" />
+        <option value="$PROJECT_DIR$/src/nju/data/MethodExtractor.java" />
+        <option value="$PROJECT_DIR$/src/nju/data/OracleMeetCode.java" />
+        <option value="$PROJECT_DIR$/src/nju/data/Preprocess.java" />
+        <option value="$PROJECT_DIR$/src/nju/test/Sqlite3Test.java" />
+        <option value="$PROJECT_DIR$/src/nju/test/SimilarityMatrixTest.java" />
+        <option value="$PROJECT_DIR$/src/nju/test/ResultTest.java" />
+        <option value="$PROJECT_DIR$/src/nju/Constants.java" />
+        <option value="$PROJECT_DIR$/src/nju/component/TXTPaser.java" />
+        <option value="$PROJECT_DIR$/src/nju/Path.java" />
+        <option value="$PROJECT_DIR$/src/nju/Sqlite3.java" />
+        <option value="$PROJECT_DIR$/src/nju/Demo.java" />
+      </list>
+    </option>
+  </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="22" />
+    <option name="x" value="66" />
+    <option name="y" value="40" />
     <option name="width" value="1440" />
     <option name="height" value="814" />
   </component>
@@ -138,7 +202,7 @@
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectReloadState">
-    <option name="STATE" value="2" />
+    <option name="STATE" value="0" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
@@ -154,6 +218,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -208,13 +273,12 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
+              <option name="myItemId" value="component" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -311,6 +375,56 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="traceability_ir" />
       <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="OracleMeetCode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="nju.data.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="nju.data.OracleMeetCode" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="traceability_ir" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Sqlite3Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="nju.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="traceability_ir" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="nju.test" />
+      <option name="MAIN_CLASS_NAME" value="nju.test.Sqlite3Test" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
       <method />
@@ -526,16 +640,20 @@
       <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
       <method />
     </configuration>
-    <list size="3">
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="JUnit.ResultTest" />
       <item index="1" class="java.lang.String" itemvalue="JUnit.SimilarityMatrixTest" />
       <item index="2" class="java.lang.String" itemvalue="Application.Demo" />
+      <item index="3" class="java.lang.String" itemvalue="Application.OracleMeetCode" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.Sqlite3Test" />
     </list>
     <recent_temporary>
-      <list size="3">
+      <list size="5">
         <item index="0" class="java.lang.String" itemvalue="Application.Demo" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.SimilarityMatrixTest" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.ResultTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.Sqlite3Test" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.SimilarityMatrixTest" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.ResultTest" />
+        <item index="4" class="java.lang.String" itemvalue="Application.OracleMeetCode" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -544,21 +662,27 @@
     </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SliceManager">
+    <option name="analysisUIOptions">
+      <AnalysisUIOptions />
+    </option>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="57b17f05-59f7-4928-a1e6-eb46ed68f978" name="Default" comment="" />
       <created>1409759618693</created>
       <updated>1409759618693</updated>
       <workItem from="1409759622069" duration="42000" />
-      <workItem from="1409759663979" duration="139000" />
+      <workItem from="1409759663979" duration="1285000" />
+      <workItem from="1409795353806" duration="9133000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="181000" />
+    <option name="totallyTimeSpent" value="10460000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1440" height="814" extended-state="6" />
+    <frame x="66" y="40" width="1440" height="814" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -566,27 +690,27 @@
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4051724" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3297568" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297568" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295129" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32902297" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24964234" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32902297" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28735632" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Sequence" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -620,11 +744,87 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/nju/Sqlite3.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="36" selection-start="442" selection-end="442" vertical-scroll-proportion="0.0" vertical-offset="340" max-vertical-offset="2227">
+          <folding>
+            <marker date="1409811296000" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..reqs..." />
+            <marker date="1409811296000" expanded="true" signature="-1:-1" placeholder="CREATE TABLE..reqs..." />
+            <marker date="1409811296000" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/nju/test/ResultTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="13" selection-start="345" selection-end="345" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="5440">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/nju/data/FileFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="13" selection-start="316" selection-end="316" vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="1326">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/nju/data/Preprocess.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="0" selection-start="191" selection-end="191" vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="493">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/nju/data/model/OracleMatrix.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="29" selection-start="353" selection-end="353" vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="1904">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/nju/data/OracleMeetCode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="55" selection-start="531" selection-end="531" vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="459">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/nju/data/TraceLab.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="13" selection-start="150" selection-end="150" vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="612">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/nju/_.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="13" selection-start="544" selection-end="544" vertical-scroll-proportion="0.0" vertical-offset="391" max-vertical-offset="2040">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/nju/Constants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="0" selection-start="458" selection-end="458" vertical-scroll-proportion="0.0" vertical-offset="57" max-vertical-offset="731">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/nju/Demo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="13" selection-start="267" selection-end="267" vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="1241">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/nju/Sqlite3.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state line="20" column="36" selection-start="442" selection-end="442" vertical-scroll-proportion="0.0" vertical-offset="340" max-vertical-offset="2091">
           <folding>
-            <marker date="1409757099000" expanded="true" signature="1194:1212" placeholder="SELECT * FRO..reqs..." />
-            <marker date="1409757099000" expanded="true" signature="3103:3217" placeholder="CREATE TABLE..reqs..." />
-            <marker date="1409757099000" expanded="true" signature="3760:3893" placeholder="INSERT INTO ..." />
+            <marker date="1409811296000" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..reqs..." />
+            <marker date="1409811296000" expanded="true" signature="-1:-1" placeholder="CREATE TABLE..reqs..." />
+            <marker date="1409811296000" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
           </folding>
         </state>
       </provider>
@@ -643,41 +843,253 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/nju/component/metrics/ConstantCutResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="13" selection-start="207" selection-end="207" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1615">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/nju/component/metrics/ConstantThresholdResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="13" selection-start="149" selection-end="149" vertical-scroll-proportion="0.0" vertical-offset="415" max-vertical-offset="765">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/nju/component/metrics/MetricComputation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="13" selection-start="151" selection-end="151" vertical-scroll-proportion="0.0" vertical-offset="840" max-vertical-offset="1190">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/nju/component/metrics/Result.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="22" selection-start="369" selection-end="369" vertical-scroll-proportion="-9.117963" vertical-offset="3520" max-vertical-offset="3893">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/nju/data/FileFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="70" column="78" selection-start="2485" selection-end="2485" vertical-scroll-proportion="0.61142856" vertical-offset="857" max-vertical-offset="1207">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/nju/data/JavaParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="13" selection-start="205" selection-end="205" vertical-scroll-proportion="0.0" vertical-offset="591" max-vertical-offset="1139">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/nju/data/JspExtractor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="49" column="35" selection-start="1384" selection-end="1384" vertical-scroll-proportion="0.0" vertical-offset="470" max-vertical-offset="833">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/nju/data/MethodExtractor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="50" column="42" selection-start="1453" selection-end="1453" vertical-scroll-proportion="0.0" vertical-offset="466" max-vertical-offset="816">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/nju/data/OracleMeetCode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="69" column="65" selection-start="2251" selection-end="2251" vertical-scroll-proportion="0.5785124" vertical-offset="963" max-vertical-offset="1326">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/nju/data/Preprocess.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="0" selection-start="133" selection-end="514" vertical-scroll-proportion="0.27142859" vertical-offset="58" max-vertical-offset="408">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/nju/data/TraceLab.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="46" selection-start="685" selection-end="685" vertical-scroll-proportion="0.92285717" vertical-offset="0" max-vertical-offset="561">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/nju/type/Artifact.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="13" selection-start="72" selection-end="72" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/nju/type/ArtifactsCollection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="13" selection-start="105" selection-end="105" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/nju/type/LinksList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="13" selection-start="101" selection-end="101" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="425">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/nju/type/PrecisionRecallCurve.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="13" selection-start="105" selection-end="105" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="425">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/nju/type/RankStrategy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="12" selection-start="72" selection-end="72" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="238">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/nju/type/SimilarityMatrix.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="13" selection-start="178" selection-end="178" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="8279">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/nju/type/SingleLink.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="13" selection-start="72" selection-end="72" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1224">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/nju/_.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="13" selection-start="544" selection-end="544" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1768">
+        <state line="70" column="41" selection-start="2012" selection-end="2012" vertical-scroll-proportion="-1.4285715" vertical-offset="1418" max-vertical-offset="1768">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/nju/Constants.java">
+    <entry file="file://$PROJECT_DIR$/src/nju/test/SimilarityMatrixTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="13" selection-start="68" selection-end="68" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="714">
+        <state line="14" column="92" selection-start="341" selection-end="341" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3349">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/nju/Demo.java">
+    <entry file="file://$PROJECT_DIR$/src/nju/component/visualization/GracefulCurve.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="13" selection-start="267" selection-end="267" vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="1173">
+        <state line="22" column="13" selection-start="536" selection-end="536" vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="2176">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/nju/component/visualization/PrecisionRecallChart.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="13" selection-start="649" selection-end="649" vertical-scroll-proportion="0.0" vertical-offset="1157" max-vertical-offset="1530">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/nju/component/TXTPaser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="1" selection-start="223" selection-end="223" vertical-scroll-proportion="0.0" vertical-offset="67" max-vertical-offset="680">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/nju/component/VSM.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="13" selection-start="151" selection-end="151" vertical-scroll-proportion="0.0" vertical-offset="510" max-vertical-offset="2278">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/nju/component/XMLParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="13" selection-start="332" selection-end="332" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="867">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/nju/data/model/Method.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="13" selection-start="131" selection-end="131" vertical-scroll-proportion="0.0" vertical-offset="532" max-vertical-offset="918">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/nju/data/model/OracleMatrix.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="114" column="66" selection-start="2830" selection-end="2830" vertical-scroll-proportion="1.2344322" vertical-offset="1397" max-vertical-offset="1904">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/nju/test/ResultTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="83" selection-start="669" selection-end="669" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5304">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/nju/test/Sqlite3Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="13" selection-start="168" selection-end="168" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="425">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/nju/type/TermDocumentMatrix.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="13" selection-start="93" selection-end="93" vertical-scroll-proportion="0.0" vertical-offset="3733" max-vertical-offset="4165">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/nju/type/StringHashSet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="13" selection-start="99" selection-end="99" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/nju/Sqlite3.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="36" selection-start="442" selection-end="442" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2091">
+        <state line="69" column="58" selection-start="2198" selection-end="2198" vertical-scroll-proportion="0.0" vertical-offset="1761" max-vertical-offset="2193">
           <folding>
-            <marker date="1409757099000" expanded="true" signature="1194:1212" placeholder="SELECT * FRO..reqs..." />
-            <marker date="1409757099000" expanded="true" signature="3103:3217" placeholder="CREATE TABLE..reqs..." />
-            <marker date="1409757099000" expanded="true" signature="3760:3893" placeholder="INSERT INTO ..." />
+            <marker date="1409811296000" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..reqs..." />
+            <marker date="1409811296000" expanded="true" signature="-1:-1" placeholder="CREATE TABLE..reqs..." />
+            <marker date="1409811296000" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/nju/test/ResultTest.java">
+    <entry file="file://$PROJECT_DIR$/src/nju/Constants.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="13" selection-start="345" selection-end="345" vertical-scroll-proportion="0.2793427" vertical-offset="0" max-vertical-offset="5304">
+        <state line="6" column="1" selection-start="81" selection-end="81" vertical-scroll-proportion="0.22921348" vertical-offset="0" max-vertical-offset="445">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/nju/Path.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="57" selection-start="1515" selection-end="1515" vertical-scroll-proportion="0.0" vertical-offset="299" max-vertical-offset="731">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/nju/Demo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="59" column="0" selection-start="1970" selection-end="1970" vertical-scroll-proportion="0.724537" vertical-offset="622" max-vertical-offset="1173">
           <folding />
         </state>
       </provider>

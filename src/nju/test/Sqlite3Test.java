@@ -1,6 +1,6 @@
 package nju.test;
 
-import nju.Constants;
+import nju.Path;
 import nju.Sqlite3;
 import nju.type.SimilarityMatrix;
 import org.junit.Test;
@@ -11,7 +11,7 @@ import org.junit.Test;
 public class Sqlite3Test {
     @Test
     public void testReadSimilarityMatrix() throws Exception {
-        SimilarityMatrix similarityMatrix = Sqlite3.readSimilarityMatrixFromDB(Constants.MATRIX_DB_PATH);
+        SimilarityMatrix similarityMatrix = Sqlite3.readSimilarityMatrixFromDB(Path.MATRIX_SCORE_DB);
     }
 
     @Test

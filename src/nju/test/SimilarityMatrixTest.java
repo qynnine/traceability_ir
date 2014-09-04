@@ -1,6 +1,6 @@
 package nju.test;
 
-import nju.Constants;
+import nju.Path;
 import nju.component.TXTPaser;
 import nju.type.SimilarityMatrix;
 import org.junit.Test;
@@ -12,7 +12,7 @@ import static org.junit.Assert.assertEquals;
  */
 public class SimilarityMatrixTest {
 
-    public SimilarityMatrix similarity = TXTPaser.createSimilarityMatrix(Constants.SIMILARITY_PATH);
+    public SimilarityMatrix similarity = TXTPaser.createSimilarityMatrix(Path.SIMILARITY_TXT);
     private String method_1 = "AccessDAO::setSessionTimeoutMins";
     private String method_2 = "AuthDAO::recordResetPasswordFailure";
 
