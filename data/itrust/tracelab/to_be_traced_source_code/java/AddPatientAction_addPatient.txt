@@ -1,1 +1,6 @@
-AddPatientAction addPatient p 
+AddPatientAction addPatient p /** 
+ * Creates a new patient, returns the new MID. Adds a new user to the table along with a random password.
+ * @return the new MID of the patient
+ * @throws DBException
+ * @throws FormValidationException
+ */

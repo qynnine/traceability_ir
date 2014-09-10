@@ -1,1 +1,5 @@
-EditOfficeVisitAction getOfficeVisit 
+EditOfficeVisitAction getOfficeVisit /** 
+ * Returns the office visit bean for the office visit
+ * @return the OfficeVisitBean of the office visit
+ * @throws iTrustException
+ */

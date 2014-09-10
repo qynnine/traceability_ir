@@ -1,1 +1,6 @@
-SearchUsersAction searchForPatientsWithName firstName lastName 
+SearchUsersAction searchForPatientsWithName firstName lastName /** 
+ * Search for all patients with first name and last name given in parameters.
+ * @param firstName The first name of the patient being searched.
+ * @param lastName The last name of the patient being searched.
+ * @return A java.util.List of PatientBeans
+ */

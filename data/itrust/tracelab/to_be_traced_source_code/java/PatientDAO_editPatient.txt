@@ -1,1 +1,5 @@
-PatientDAO editPatient p hcpid 
+PatientDAO editPatient p hcpid /** 
+ * Updates a patient's information for the given MID
+ * @param p The patient bean representing the new information for the patient.
+ * @throws DBException
+ */

@@ -1,1 +1,7 @@
-DeclareHCPAction declareHCP hcpStr 
+DeclareHCPAction declareHCP hcpStr /** 
+ * Validate an HCP's MID and declare them, if possible
+ * @param hcpStrThe MID of an HCP to declare
+ * @return A status message,
+ * @throws iTrustException
+ * @author Andy Meneely
+ */

@@ -1,1 +1,7 @@
-AddHCPAction add p 
+AddHCPAction add p /** 
+ * Adds the new user.   Event is logged.
+ * @param p bean containing the information for the new user
+ * @return MID of the new user.
+ * @throws FormValidationException
+ * @throws iTrustException
+ */

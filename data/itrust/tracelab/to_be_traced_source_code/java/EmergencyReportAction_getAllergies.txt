@@ -1,1 +1,5 @@
-EmergencyReportAction getAllergies 
+EmergencyReportAction getAllergies /** 
+ * Returns a list of allergies for the given patient
+ * @return a list of AllergyBeans
+ * @throws iTrustException
+ */

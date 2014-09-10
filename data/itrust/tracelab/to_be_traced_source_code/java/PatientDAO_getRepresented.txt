@@ -1,1 +1,6 @@
-PatientDAO getRepresented pid 
+PatientDAO getRepresented pid /** 
+ * Return a list of patients that the given patient represents
+ * @param pid The MID of the patient in question.
+ * @return A java.util.List of PatientBeans
+ * @throws DBException
+ */

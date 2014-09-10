@@ -1,1 +1,6 @@
-EditPatientAction updateInformation p 
+EditPatientAction updateInformation p /** 
+ * Takes the information out of the PatientBean param and updates the patient's information
+ * @param pthe new patient information
+ * @throws iTrustException
+ * @throws FormValidationException
+ */

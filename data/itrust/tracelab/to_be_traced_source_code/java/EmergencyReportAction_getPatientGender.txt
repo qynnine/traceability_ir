@@ -1,1 +1,4 @@
-EmergencyReportAction getPatientGender 
+EmergencyReportAction getPatientGender /** 
+ * Returns the patient's gender
+ * @return patient's gender
+ */

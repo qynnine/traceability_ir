@@ -1,1 +1,6 @@
-TransactionDAO getAllRecordAccesses patientID dlhcpID getByRole 
+TransactionDAO getAllRecordAccesses patientID dlhcpID getByRole /** 
+ * Return a list of all transactions in which an HCP accessed the given patient's record
+ * @param patientID The MID of the patient in question.
+ * @return A java.util.List of transactions.
+ * @throws DBException
+ */

@@ -1,1 +1,7 @@
-DrugInteractionAction reportInteraction firstDrug secondDrug description 
+DrugInteractionAction reportInteraction firstDrug secondDrug description /** 
+ * Method to report an interaction
+ * @param firstDrug
+ * @param secondDrug
+ * @param description
+ * @return
+ */

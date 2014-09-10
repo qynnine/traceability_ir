@@ -1,1 +1,6 @@
-SurveyAction addSurvey surveyBean visitID 
+SurveyAction addSurvey surveyBean visitID /** 
+ * Pass the OfficeVistBean along with SurveyBean
+ * @param surveyBean contains data to be added to database
+ * @param visitID The Office Visit ID corresponding to this Survey.
+ * @throws DBException
+ */

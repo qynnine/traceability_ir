@@ -1,1 +1,6 @@
-HealthRecordsDAO getAllHealthRecords mid 
+HealthRecordsDAO getAllHealthRecords mid /** 
+ * Returns a list of all health records for a particular patient
+ * @param mid The MID of the patient to look up.
+ * @return A java.util.List of HealthRecords.
+ * @throws DBException
+ */

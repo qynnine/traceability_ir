@@ -1,1 +1,5 @@
-RemoteMonitoringDAO getPatientsData loggedInMID 
+RemoteMonitoringDAO getPatientsData loggedInMID /** 
+ * Returns patient data for a given HCP
+ * @return
+ * @throws DBException
+ */

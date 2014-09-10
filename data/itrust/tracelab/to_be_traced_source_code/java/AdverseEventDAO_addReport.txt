@@ -1,1 +1,6 @@
-AdverseEventDAO addReport aeBean hcpmid 
+AdverseEventDAO addReport aeBean hcpmid /** 
+ * Adds a message to the database.
+ * @param mBean A bean representing the message to be added.
+ * @throws SQLException
+ * @throws DBException 
+ */

@@ -1,1 +1,7 @@
-VisitRemindersDAO getDiagnosedVisitNeeders hcpid 
+VisitRemindersDAO getDiagnosedVisitNeeders hcpid /** 
+ * Returns a list of patients who need a visit for this HCP. This means:
+ * Alive patient, no office visit for > 1 yr, diagnosed: - Diabetes: 250.xx - Asthma: 493.xx -
+ * Circulatory-System Disease: [ 390.00 , 459.99 ]
+ * @param hcpid The MID of the HCP in question.
+ * @return A java.util.List of visit reminders.
+ */

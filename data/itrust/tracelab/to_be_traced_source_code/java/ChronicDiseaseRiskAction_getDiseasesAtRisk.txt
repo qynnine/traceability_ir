@@ -1,1 +1,7 @@
-ChronicDiseaseRiskAction getDiseasesAtRisk 
+ChronicDiseaseRiskAction getDiseasesAtRisk /** 
+ * Returns the risks for which this patient is at risk for. All logic has been passed to{@link ChronicDiseaseMediator} and the subclasses of {@link RiskChecker}.
+ * @return List of risks
+ * @throws iTrustException
+ * @throws DBException
+ * @author Andy Meneely
+ */

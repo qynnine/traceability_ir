@@ -1,1 +1,6 @@
-ViewMyRemoteMonitoringListAction getPatientName pid 
+ViewMyRemoteMonitoringListAction getPatientName pid /** 
+ * returns the patient name
+ * @return patient name
+ * @throws DBException
+ * @throws iTrustException
+ */

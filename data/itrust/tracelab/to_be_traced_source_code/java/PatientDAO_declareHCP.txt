@@ -1,1 +1,8 @@
-PatientDAO declareHCP pid hcpID 
+PatientDAO declareHCP pid hcpID /** 
+ * Declares an HCP for a particular patient
+ * @param pid The MID of the patient in question.
+ * @param hcpID The HCP's MID.
+ * @return A boolean as to whether the insertion was successful.
+ * @throws DBException
+ * @throws iTrustException
+ */

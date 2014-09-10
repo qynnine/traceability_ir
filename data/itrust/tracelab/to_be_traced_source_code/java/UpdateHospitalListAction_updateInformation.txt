@@ -1,1 +1,7 @@
-UpdateHospitalListAction updateInformation hosp 
+UpdateHospitalListAction updateInformation hosp /** 
+ * Updates a hospital (based on the hospital id) using new information from the HospitalBean passed as a
+ * param
+ * @param hospthe new hospital information with the same hospital id
+ * @return Status message
+ * @throws FormValidationException
+ */

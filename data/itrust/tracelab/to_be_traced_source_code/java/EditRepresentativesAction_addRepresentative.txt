@@ -1,1 +1,6 @@
-EditRepresentativesAction addRepresentative pidString 
+EditRepresentativesAction addRepresentative pidString /** 
+ * Makes the patient (pid) represent the input mid parameter
+ * @param pidStringthe mid of the person who will be represented (the representee)
+ * @return a message
+ * @throws iTrustException
+ */

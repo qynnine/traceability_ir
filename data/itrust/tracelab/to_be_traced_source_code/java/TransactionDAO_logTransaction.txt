@@ -1,1 +1,9 @@
-TransactionDAO logTransaction type loggedInMID secondaryMID addedInfo 
+TransactionDAO logTransaction type loggedInMID secondaryMID addedInfo /** 
+ * Log a transaction, with all of the info. The meaning of secondaryMID and addedInfo changes depending on
+ * the transaction type.
+ * @param type The {@link TransactionType} enum representing the type this transaction is.
+ * @param loggedInMID The MID of the user who is logged in.
+ * @param secondaryMID Typically, the MID of the user who is being acted upon.
+ * @param addedInfo A note about a subtransaction, or specifics of this transaction (for posterity).
+ * @throws DBException
+ */

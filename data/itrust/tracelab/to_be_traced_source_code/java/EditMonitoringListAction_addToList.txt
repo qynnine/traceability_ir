@@ -1,1 +1,8 @@
-EditMonitoringListAction addToList patientMID tBean 
+EditMonitoringListAction addToList patientMID tBean /** 
+ * Adds a patient to the current HCP's remote monitoring list
+ * @param patientMID the patient
+ * @param permissions Array indicating what data the patient is allowed to enter. 
+ * Ordered by Systolic Blood Pressure, Diastolic Blood Pressure, Glucose Level, Weight, Pedometer Reading.
+ * @return true if added successfully. False if already in list.
+ * @throws DBException
+ */

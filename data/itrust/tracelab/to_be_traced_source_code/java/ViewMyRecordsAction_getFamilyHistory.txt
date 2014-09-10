@@ -1,1 +1,4 @@
-ViewMyRecordsAction getFamilyHistory 
+ViewMyRecordsAction getFamilyHistory /** 
+ * Returns a list of Parents, Siblings, and Grand Parents of the currently logged in patient
+ * @return list of FamilyMemberBeans
+ */

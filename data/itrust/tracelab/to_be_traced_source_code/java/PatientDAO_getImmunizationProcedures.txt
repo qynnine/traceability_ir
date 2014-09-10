@@ -1,1 +1,6 @@
-PatientDAO getImmunizationProcedures pid 
+PatientDAO getImmunizationProcedures pid /** 
+ * Return a list of all immunization procedures for a given patient
+ * @param pid The MID of the patient in question.
+ * @return A java.util.List of the procedures.
+ * @throws DBException
+ */

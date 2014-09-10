@@ -1,1 +1,6 @@
-PersonnelDAO getPersonnel mid 
+PersonnelDAO getPersonnel mid /** 
+ * Retrieves a PersonnelBean with all of the specific information for a given employee.
+ * @param mid The MID of the personnel in question.
+ * @return A PersonnelBean representing the employee.
+ * @throws DBException
+ */

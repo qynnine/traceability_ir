@@ -1,1 +1,5 @@
-ReportAdverseEventAction sendMails aeList 
+ReportAdverseEventAction sendMails aeList /** 
+ * Method that sends exactly one e-mail to each MID in the list of Adverse Events
+ * @param aeList The list of adverse Event Beans that need to be acted upon
+ * @return EList The list of e-mails sent for testing purposes
+ */

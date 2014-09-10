@@ -1,1 +1,7 @@
-PatientDAO checkDeclaredHCP pid hcpid 
+PatientDAO checkDeclaredHCP pid hcpid /** 
+ * Check if a patient has declared the given HCP
+ * @param pid The MID of the patient in question as a long.
+ * @param hcpid The MID of the HCP in question as a long.
+ * @return
+ * @throws DBException
+ */

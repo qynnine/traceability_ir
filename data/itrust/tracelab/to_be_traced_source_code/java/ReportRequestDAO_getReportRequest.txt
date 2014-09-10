@@ -1,1 +1,6 @@
-ReportRequestDAO getReportRequest id 
+ReportRequestDAO getReportRequest id /** 
+ * Returns a full bean describing a given report request.
+ * @param id The unique ID of the bean in the database.
+ * @return The bean describing this report request.
+ * @throws DBException
+ */

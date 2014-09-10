@@ -1,1 +1,10 @@
-AuthDAO addUser mid role password 
+AuthDAO addUser mid role password /** 
+ * Add a particular user to the system. Does not add user-specific information (e.g. Patient or HCP).
+ * Initially sets security question to a random set of characters, so that nobody should be able to guess
+ * its value.
+ * @param mid The user's MID as a Long.
+ * @param role The role of the user as a Role enum {@link Role}
+ * @param password The password for the new user.
+ * @return A string representing the newly added randomly-generated password. 
+ * @throws DBException
+ */

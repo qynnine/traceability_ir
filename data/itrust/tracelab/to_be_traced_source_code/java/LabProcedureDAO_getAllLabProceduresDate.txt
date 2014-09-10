@@ -1,1 +1,6 @@
-LabProcedureDAO getAllLabProceduresDate mid 
+LabProcedureDAO getAllLabProceduresDate mid /** 
+ * Gets all procedures for Patient
+ * @param mid patient id
+ * @return A java.util.List of LabProcedureBeans.
+ * @throws DBException
+ */

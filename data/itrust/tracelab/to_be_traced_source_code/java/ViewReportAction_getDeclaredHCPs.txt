@@ -1,1 +1,6 @@
-ViewReportAction getDeclaredHCPs pid 
+ViewReportAction getDeclaredHCPs pid /** 
+ * Get declared HCPs list for the given patient
+ * @param pid the patient of interest
+ * @return list of declared HCPs
+ * @throws iTrustException
+ */

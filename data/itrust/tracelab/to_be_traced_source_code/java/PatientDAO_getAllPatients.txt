@@ -1,1 +1,5 @@
-PatientDAO getAllPatients 
+PatientDAO getAllPatients /** 
+ * Lists every patient in the database.
+ * @return A java.util.List of PatientBeans representing the patients.
+ * @throws DBException
+ */

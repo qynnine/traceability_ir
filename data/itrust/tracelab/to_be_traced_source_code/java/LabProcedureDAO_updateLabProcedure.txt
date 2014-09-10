@@ -1,1 +1,5 @@
-LabProcedureDAO updateLabProcedure b 
+LabProcedureDAO updateLabProcedure b /** 
+ * Updates an existing lab procedure.
+ * @param b The LabProcedureBean representing the procedure to be updated.
+ * @throws DBException
+ */

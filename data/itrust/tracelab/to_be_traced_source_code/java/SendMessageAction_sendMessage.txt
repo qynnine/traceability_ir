@@ -1,1 +1,6 @@
-SendMessageAction sendMessage mBean 
+SendMessageAction sendMessage mBean /** 
+ * Sends a message
+ * @param mBean message to be sent
+ * @throws iTrustException
+ * @throws SQLException
+ */

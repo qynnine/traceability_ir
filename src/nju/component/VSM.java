@@ -128,4 +128,8 @@ public class VSM {
         }
         return sims;
     }
+
+    public static void main(String[] args) {
+
+    }
 }

@@ -1,413 +1,413 @@
-MonitorAdverseEventAction UC36
-ViewPatientOfficeVisitHistoryAction UC28
-RemoteMonitoringDAO UC34
-sendMessage_jsp UC30
-UpdateHospitalListAction UC18
-VisitDAO UC6
-ChangeSessionTimeoutAction UC3
-PersonnelDAO UC2
-GetVisitRemindersAction UC17
-UpdateNDCodeListAction UC15
-CPTCodesDAO UC15
-PersonnelDAO UC6
-PersonnelDAO UC10
-PersonnelDAO UC29
-PersonnelDAO UC32
-PersonnelDAO UC33
-PersonnelDAO UC36
-OfficeVisitDAO UC11
-EmergencyReportAction UC21
-MonitorAdverseEventAction UC36
-hospitalListing_jsp UC18
-HospitalsDAO UC25
-EditRepresentativesAction UC13
-RiskChecker UC16
-ViewMyRemoteMonitoringListAction UC34
-UpdateHospitalListAction UC18
-AddRemoteMonitoringDataAction UC34
-AllergyDAO UC9
-AllergyDAO UC11
-AllergyDAO UC21
-AllergyDAO UC23
-AllergyDAO UC37
-ViewMyRecordsAction UC23
-ViewMyRecordsAction UC23
-ViewPrescriptionRenewalNeedsAction UC32
-EditPersonnelAction UC4
-AddPatientValidator UC1
-OfficeVisitDAO UC11
-EditPHRAction UC10
-LOINCDAO UC15
-OfficeVisitDAO UC11
-OfficeVisitDAO UC35
-LabProcedureDAO UC29
-DiseaseMediator UC16
-ViewReportAction UC23
-ProcedureBeanValidator UC15
-EditHealthHistoryAction UC10
-ViewMyReportRequestsAction UC23
-ViewReportAction UC23
-PatientDAO UC6
-EmergencyReportAction UC21
-EmergencyReportAction UC21
-OfficeVisitDAO UC11
-EmergencyReportAction UC21
-SurveyResultDAO UC25
-SessionTimeoutListener UC3
-AdverseEventDAO UC36
-SecurityQAValidator UC4
-PersonnelDAO UC6
-PersonnelDAO UC21
-PersonnelDAO UC31
-PersonnelDAO UC33
-EmailUtil UC3
-EmailUtil UC4
-EmailUtil UC19
-EmailUtil UC21
-EmailUtil UC27
-EmailUtil UC30
-EmailUtil UC35
-EmailUtil UC36
-EmailUtil UC37
-LabProcedureDAO UC26
-OfficeVisitDAO UC11
-viewExpiredPrescriptionRecords_jsp UC31
-PatientDAO UC21
-PatientDAO UC23
-PatientDAO UC26
-PatientDAO UC28
-PatientDAO UC29
-PatientDAO UC31
-PatientDAO UC33
-PatientDAO UC34
-PatientDAO UC37
-ViewMyRecordsAction UC23
-PersonnelDAO UC29
-ViewMyReportRequestsAction UC23
-NDCodesDAO UC15
-EditOfficeVisitAction UC11
-EditOfficeVisitAction UC37
-EditPersonnelAction UC4
-EditOfficeVisitAction UC11
-EditOfficeVisitAction UC37
-resetPassword_jsp UC3
-resetPassword_jsp UC27
-PatientValidator UC4
-getPrescriptionReport_jsp UC19
-ResetPasswordAction UC3
-ICDCodesDAO UC15
-SurveyAction UC24
-ViewMyRemoteMonitoringListAction UC34
-SurveyResultDAO UC25
-LabProcedureDAO UC3
-EditPatientAction UC26
-EditOfficeVisitAction UC11
-getPatientMonitorList_jsp UC34
-getUser_jsp UC10
-getUser_jsp UC11
-getUser_jsp UC13
-getUser_jsp UC19
-getUser_jsp UC21
-getUser_jsp UC23
-getUser_jsp UC26
-getUser_jsp UC30
-getUser_jsp UC34
-ReportRequestDAO UC3
-ReportRequestDAO UC23
-PatientDAO UC4
-ViewVisitedHCPsAction UC6
-MyDiagnosisAction UC29
-ViewPrescriptionRecordsAction UC19
-ViewPrescriptionRecordsAction UC35
-ViewMyRecordsAction UC9
-ViewMyRecordsAction UC26
-UpdateCPTCodeListAction UC15
-Type1DiabetesRisks UC16
-editBasicHealth_jsp UC10
-PatientDAO UC13
-RemoteMonitoringDAO UC34
-ICDCodesDAO UC15
-DrugInteractionDAO UC38
-OfficeVisitDAO UC11
-EmergencyReportAction UC21
-PatientDAO UC1
-AuthDAO UC4
-ViewMyRecordsAction UC21
-EditPHRAction UC10
-FamilyDAO UC9
-FamilyDAO UC10
-FamilyDAO UC23
-OfficeVisitDAO UC3
-OfficeVisitDAO UC28
-AuthDAO UC3
-AdverseEventDAO UC36
-PatientDAO UC32
-OfficeVisitDAO UC11
-EditOfficeVisitAction UC11
-ResetPasswordAction UC3
-TransactionDAO UC1
-TransactionDAO UC2
-TransactionDAO UC4
-TransactionDAO UC5
-TransactionDAO UC19
-viewAdditionalInfo_jsp UC34
-AddPersonnelValidator UC2
-ViewRequestsAction UC3
-EditOfficeVisitAction UC37
-UpdateICDCodeListAction UC15
-MyDiagnosisAction UC29
-ReportRequestDAO UC21
-ResetPasswordAction UC3
-PatientDAO UC19
-PatientDAO UC35
-surveyResults_jsp UC25
-ViewMyRecordsAction UC9
-ViewMyRecordsAction UC23
-ChronicDiseaseRiskAction UC16
-HealthRecordsDAO UC16
-AdverseEventDAO UC36
-monitorPatients_jsp UC34
-EditMonitoringListAction UC34
-ViewReportRequestsAction UC19
-ViewExpiredPrescriptionsAction UC31
-EditHealthHistoryAction UC10
-AddPatientAction UC1
-AccessDAO UC3
-ViewReportAction UC23
-DiagnosisBeanValidator UC15
-EditRepresentativesAction UC13
-EditPatientAction UC4
-chronicDiseaseRisks_jsp UC16
-ReportAdverseEventAction UC35
-AuthDAO UC10
-AuthDAO UC11
-AuthDAO UC13
-AuthDAO UC19
-AuthDAO UC21
-AuthDAO UC23
-AuthDAO UC26
-AuthDAO UC30
-AuthDAO UC34
-DrugInteractionAction UC38
-DrugInteractionDAO UC38
-ReferralManagementAction UC33
-RemoteMonitoringDAO UC34
-UpdateLOINCListAction UC15
-RemoteMonitoringDAO UC34
-ReferralManagementAction UC33
-LabProcHCP_jsp UC26
-PatientDAO UC30
-LabProcedureDAO UC9
-LabProcedureDAO UC26
-EditRepresentativesAction UC34
-ViewMyRecordsAction UC9
-ViewMyRecordsAction UC23
-PatientDAO UC21
-PatientDAO UC23
-viewLHCP_jsp UC31
-OfficeVisitDAO UC11
-OfficeVisitDAO UC37
-FamilyDAO UC9
-FamilyDAO UC10
-FamilyDAO UC23
-viewMyRecords_jsp UC9
-viewMyRecords_jsp UC26
-viewMyRecords_jsp UC35
-TransactionDAO UC12
-addTelemedicineData_jsp UC34
-viewMyReportRequests_jsp UC23
-UpdateICDCodeListAction UC15
-ViewMyRemoteMonitoringListAction UC34
-editICDCodes_jsp UC15
-ViewMyRecordsAction UC9
-ViewMyRecordsAction UC23
-MedicationBeanValidator UC15
-viewAccessLog_jsp UC8
-LabProcUAPAction UC26
-LabProcUAPAction UC27
-AddUAPAction UC2
-ViewMyReportRequestsAction UC3
-LOINCDAO UC15
-ViewSurveyResultAction UC25
-ReportAdverseEventAction UC35
-ReferralDAO UC33
-SearchUsersAction UC4
-OfficeVisitDAO UC11
-ReportAdverseEventAction UC35
-myDiagnoses_jsp UC29
-AuthDAO UC1
-AuthDAO UC2
-FamilyDAO UC10
-FamilyDAO UC23
-GetVisitRemindersAction UC17
-GetVisitRemindersAction UC17
-PatientDAO UC31
-ViewReportAction UC23
-LOINCDAO UC15
-LabProcHCPAction UC3
-OfficeVisitDAO UC11
-ReferralManagementAction UC33
-ViewMyRemoteMonitoringListAction UC34
-hcpConsultation_jsp UC33
-sessionTimeout_jsp UC3
-AuthDAO UC3
-AuthDAO UC13
-EditOfficeVisitAction UC11
-ViewMyRecordsAction UC23
-EditOfficeVisitAction UC11
-VisitRemindersDAO UC17
-UpdateNDCodeListAction UC15
-ViewMyRecordsAction UC35
-HospitalsDAO UC18
-ViewSurveyResultAction UC25
-ICDCodesDAO UC15
-ViewMyMessagesAction UC30
-editOfficeVisit_jsp UC11
-editOfficeVisit_jsp UC37
-LabProcedureDAO UC3
-LabProcedureDAO UC26
-LabProcUAPAction UC26
-Type2DiabetesRisks UC16
-DeclareHCPAction UC6
-NDCodesDAO UC15
-AddHCPAction UC2
-AdverseEventDAO UC35
-PatientDAO UC1
-PatientDAO UC4
-viewVisitedHCPs_jsp UC6
-addHCP_jsp UC2
-UpdateLOINCListAction UC15
-EmergencyReportAction UC21
-editNDCInteractions_jsp UC38
-DeclareHCPAction UC6
-TransactionDAO UC10
-addPatient_jsp UC1
-emergencyReport_jsp UC21
-ReferralDAO UC33
-MessageDAO UC30
-MessageDAO UC36
-EditPHRAction UC10
-PatientDAO UC13
-EditOfficeVisitAction UC11
-EmergencyReportAction UC21
-PatientDAO UC33
-PatientDAO UC21
-PatientDAO UC23
-PatientDAO UC29
-SurveyDAO UC24
-viewMyMessages_jsp UC30
-updateLabProc_jsp UC26
-updateLabProc_jsp UC27
-PersonnelValidator UC4
-PatientDAO UC36
-ReferralDAO UC33
-ViewVisitedHCPsAction UC6
-PatientDAO UC21
-EmergecnyReportAction UC21
-EditMonitoringListAction UC34
-reportAdverseEvent_jsp UC35
-NDCodesDAO UC15
-DrugInteractionAction UC38
-viewPrescriptionRenewalNeeds_jsp UC32
-EditHealthHistoryAction UC10
-OfficeVisitDAO UC11
-AuthDAO UC3
-ViewMyAccessLogAction UC8
-PersonnelDAO UC2
-PersonnelDAO UC4
-viewReport_jsp UC23
-HospitalBeanValidator UC18
-UpdateHospitalListAction UC18
-PatientDAO UC23
-PatientDAO UC34
-PatientDAO UC6
-PatientDAO UC23
-GetUserNameAction UC10
-GetUserNameAction UC11
-GetUserNameAction UC13
-GetUserNameAction UC19
-GetUserNameAction UC21
-GetUserNameAction UC23
-GetUserNameAction UC26
-GetUserNameAction UC30
-GetUserNameAction UC34
-MessageDAO UC30
-editCPTProcedureCodes_jsp UC15
-TransactionDAO UC8
-CPTCodesDAO UC15
-ViewVisitedHCPsAction UC6
-editNDCodes_jsp UC15
-editNDCodes_jsp UC38
-viewPrescriptionRecords_jsp UC19
-viewPrescriptionRecords_jsp UC35
-ReferralManagementAction UC33
-ResetPasswordAction UC3
-ResetPasswordAction UC3
-ResetPasswordAction UC27
-ViewVisitedHCPsAction UC6
-MonitorAdverseEventAction UC36
-OfficeVisitDAO UC9
-OfficeVisitDAO UC10
-OfficeVisitDAO UC23
-RemoteMonitoringDAO UC34
-VisitRemindersDAO UC17
-HospitalsDAO UC18
-LabProcedureDAO UC26
-getPatientID_jsp UC4
-getPatientID_jsp UC23
-getPatientID_jsp UC26
-getPatientID_jsp UC30
-getPatientID_jsp UC34
-PatientDAO UC23
-PatientDAO UC34
-SendMessageAction UC30
-SendMessageAction UC36
-ViewMyRecordsAction UC9
-PatientDAO UC6
-PatientDAO UC33
-VisitRemindersDAO UC17
-RemoteMonitoringDataBeanValidator UC34
-EditPHRAction UC10
-ChronicDiseaseRiskAction UC16
-editPatientList_jsp UC34
-EditPatientAction UC4
-editLOINCCodes_jsp UC15
-DrugDAO UC11
-EmergencyReportAction UC21
-ReportRequestDAO UC21
-ReferralDAO UC33
-CPTCodesDAO UC15
-ResetPasswordAction UC3
-HealthRecordDAO UC10
-monitorAdverseEvents_jsp UC36
-reply_jsp UC30
-PatientDAO UC23
-addUAP_jsp UC2
-HealthRecordDAO UC9
-HealthRecordDAO UC10
-HealthRecordDAO UC23
-home_jsp UC3
-home_jsp UC10
-home_jsp UC12
-home_jsp UC19
-home_jsp UC21
-home_jsp UC26
-editMyDemographics_jsp UC4
-visitReminders_jsp UC17
-PatientDAO UC6
-UpdateCPTCodeListAction UC15
-adverseEventDetails_jsp UC36
-MonitorAdverseEventAction UC36
-ReportRequestDAO UC3
-ReportRequestDAO UC23
-HeartDiseaseRisks UC16
-DrugInteractionDAO UC37
-DrugInteractionDAO UC38
-barchart_jsp UC36
-OfficeVisitDAO UC29
-survey_jsp UC24
-LOINCBeanValidator UC15
-EditOfficeVisitAction UC11
-viewPatientOfficeVisitHistory_jsp UC28
-AuthDAO UC3
-SetSecurityQuestionAction UC4
+MonitorAdverseEventAction::getReports UC36 1
+ViewPatientOfficeVisitHistoryAction::getPatients UC28 1
+RemoteMonitoringDAO::getPatientsData UC34 1
+sendMessage_jsp::_jspService UC30 1
+UpdateHospitalListAction::updateInformation UC18 1
+VisitDAO::getAllOfficeVisits UC6 1
+ChangeSessionTimeoutAction::changeSessionTimeout UC3 1
+PersonnelDAO::addEmptyPersonnel UC2 1
+GetVisitRemindersAction::getImmunizationNeeders UC17 1
+UpdateNDCodeListAction::addNDCode UC15 1
+CPTCodesDAO::updateCode UC15 1
+PersonnelDAO::getPersonnel UC6 1
+PersonnelDAO::getPersonnel UC10 1
+PersonnelDAO::getPersonnel UC29 1
+PersonnelDAO::getPersonnel UC32 1
+PersonnelDAO::getPersonnel UC33 1
+PersonnelDAO::getPersonnel UC36 1
+OfficeVisitDAO::update UC11 1
+EmergencyReportAction::getPatientGender UC21 1
+MonitorAdverseEventAction::getName UC36 1
+hospitalListing_jsp::_jspService UC18 1
+HospitalsDAO::getAllHospitals UC25 1
+EditRepresentativesAction::removeRepresentative UC13 1
+RiskChecker::isAtRisk UC16 1
+ViewMyRemoteMonitoringListAction::getPatientDataWithoutLogging UC34 1
+UpdateHospitalListAction::addHospital UC18 1
+AddRemoteMonitoringDataAction::addRemoteMonitoringData UC34 1
+AllergyDAO::getAllergies UC9 1
+AllergyDAO::getAllergies UC11 1
+AllergyDAO::getAllergies UC21 1
+AllergyDAO::getAllergies UC23 1
+AllergyDAO::getAllergies UC37 1
+ViewMyRecordsAction::getRepresented UC23 1
+ViewMyRecordsAction::getFamily UC23 1
+ViewPrescriptionRenewalNeedsAction::getRenewalNeedsPatients UC32 1
+EditPersonnelAction::getPid UC4 1
+AddPatientValidator::validate UC1 1
+OfficeVisitDAO::addProcedureToOfficeVisit UC11 1
+EditPHRAction::getPatient UC10 1
+LOINCDAO::addLOINC UC15 1
+OfficeVisitDAO::getOfficeVisit UC11 1
+OfficeVisitDAO::getOfficeVisit UC35 1
+LabProcedureDAO::getAllLabProceduresForDocOV UC29 1
+DiseaseMediator::getDiseaseAtRisk UC16 1
+ViewReportAction::getPrescriptions UC23 1
+ProcedureBeanValidator::validate UC15 1
+EditHealthHistoryAction::addHealthRecord UC10 1
+ViewMyReportRequestsAction::getReportRequest UC23 1
+ViewReportAction::getProcedures UC23 1
+PatientDAO::declareHCP UC6 1
+EmergencyReportAction::getCurrentPrescriptions UC21 1
+EmergencyReportAction::getImmunizations UC21 1
+OfficeVisitDAO::removeLabProcedureFromOfficeVisit UC11 1
+EmergencyReportAction::getPatientName UC21 1
+SurveyResultDAO::getSurveyResultsForHospital UC25 1
+SessionTimeoutListener::sessionCreated UC3 1
+AdverseEventDAO::getHCPMID UC36 1
+SecurityQAValidator::validate UC4 1
+PersonnelDAO::getAllPersonnel UC6 1
+PersonnelDAO::getAllPersonnel UC21 1
+PersonnelDAO::getAllPersonnel UC31 1
+PersonnelDAO::getAllPersonnel UC33 1
+EmailUtil::sendEmail UC3 1
+EmailUtil::sendEmail UC4 1
+EmailUtil::sendEmail UC19 1
+EmailUtil::sendEmail UC21 1
+EmailUtil::sendEmail UC27 1
+EmailUtil::sendEmail UC30 1
+EmailUtil::sendEmail UC35 1
+EmailUtil::sendEmail UC36 1
+EmailUtil::sendEmail UC37 1
+LabProcedureDAO::updateLabProcedure UC26 1
+OfficeVisitDAO::addLabProcedureToOfficeVisit UC11 1
+viewExpiredPrescriptionRecords_jsp::_jspService UC31 1
+PatientDAO::getPatient UC21 1
+PatientDAO::getPatient UC23 1
+PatientDAO::getPatient UC26 1
+PatientDAO::getPatient UC28 1
+PatientDAO::getPatient UC29 1
+PatientDAO::getPatient UC31 1
+PatientDAO::getPatient UC33 1
+PatientDAO::getPatient UC34 1
+PatientDAO::getPatient UC37 1
+ViewMyRecordsAction::getRepresenting UC23 1
+PersonnelDAO::getName UC29 1
+ViewMyReportRequestsAction::getAllReportRequestsForRequester UC23 1
+NDCodesDAO::addNDCode UC15 1
+EditOfficeVisitAction::isAllergyOnList UC11 1
+EditOfficeVisitAction::isAllergyOnList UC37 1
+EditPersonnelAction::updateInformation UC4 1
+EditOfficeVisitAction::hasInteraction UC11 1
+EditOfficeVisitAction::hasInteraction UC37 1
+resetPassword_jsp::_jspService UC3 1
+resetPassword_jsp::_jspService UC27 1
+PatientValidator::validate UC4 1
+getPrescriptionReport_jsp::_jspService UC19 1
+ResetPasswordAction::checkMID UC3 1
+ICDCodesDAO::updateCode UC15 1
+SurveyAction::addSurvey UC24 1
+ViewMyRemoteMonitoringListAction::getPatientDataByDate UC34 1
+SurveyResultDAO::getSurveyResultsForZip UC25 1
+LabProcedureDAO::getLabProceduresForLHCPForNextMonth UC3 1
+EditPatientAction::getPid UC26 1
+EditOfficeVisitAction::updateOv UC11 1
+getPatientMonitorList_jsp::_jspService UC34 1
+getUser_jsp::_jspService UC10 1
+getUser_jsp::_jspService UC11 1
+getUser_jsp::_jspService UC13 1
+getUser_jsp::_jspService UC19 1
+getUser_jsp::_jspService UC21 1
+getUser_jsp::_jspService UC23 1
+getUser_jsp::_jspService UC26 1
+getUser_jsp::_jspService UC30 1
+getUser_jsp::_jspService UC34 1
+ReportRequestDAO::getReportRequest UC3 1
+ReportRequestDAO::getReportRequest UC23 1
+PatientDAO::searchForPatientsWithName UC4 1
+ViewVisitedHCPsAction::declareHCP UC6 1
+MyDiagnosisAction::getDiagnoses UC29 1
+ViewPrescriptionRecordsAction::getPrescriptionsForPatient UC19 1
+ViewPrescriptionRecordsAction::getPrescriptionsForPatient UC35 1
+ViewMyRecordsAction::getLabs UC9 1
+ViewMyRecordsAction::getLabs UC26 1
+UpdateCPTCodeListAction::addCPTCOde UC15 1
+Type1DiabetesRisks::getDiseaseRiskFactors UC16 1
+editBasicHealth_jsp::_jspService UC10 1
+PatientDAO::addRepresentative UC13 1
+RemoteMonitoringDAO::addPatientToList UC34 1
+ICDCodesDAO::getAllICDCodes UC15 1
+DrugInteractionDAO::deleteInteraction UC38 1
+OfficeVisitDAO::addPrescription UC11 1
+EmergencyReportAction::getBloodType UC21 1
+PatientDAO::addEmptyPatient UC1 1
+AuthDAO::setSecurityQuestionAnswer UC4 1
+ViewMyRecordsAction::getReportRequests UC21 1
+EditPHRAction::getFamily UC10 1
+FamilyDAO::getSiblings UC9 1
+FamilyDAO::getSiblings UC10 1
+FamilyDAO::getSiblings UC23 1
+OfficeVisitDAO::getAllOfficeVisitsForLHCP UC3 1
+OfficeVisitDAO::getAllOfficeVisitsForLHCP UC28 1
+AuthDAO::recordResetPasswordFailure UC3 1
+AdverseEventDAO::removeReport UC36 1
+PatientDAO::getRenewalNeedsPatients UC32 1
+OfficeVisitDAO::removePrescription UC11 1
+EditOfficeVisitAction::getOfficeVisit UC11 1
+ResetPasswordAction::getSecurityQuestion UC3 1
+TransactionDAO::logTransaction UC1 1
+TransactionDAO::logTransaction UC2 1
+TransactionDAO::logTransaction UC4 1
+TransactionDAO::logTransaction UC5 1
+TransactionDAO::logTransaction UC19 1
+viewAdditionalInfo_jsp::_jspService UC34 1
+AddPersonnelValidator::validate UC2 1
+ViewRequestsAction::getAllReportRequestsForRequester UC3 1
+EditOfficeVisitAction::sendEmail UC37 1
+UpdateICDCodeListAction::addICDCode UC15 1
+MyDiagnosisAction::getHCPByDiagnosis UC29 1
+ReportRequestDAO::addReportRequest UC21 1
+ResetPasswordAction::checkRole UC3 1
+PatientDAO::getPrescriptions UC19 1
+PatientDAO::getPrescriptions UC35 1
+surveyResults_jsp::_jspService UC25 1
+ViewMyRecordsAction::getAllHealthRecords UC9 1
+ViewMyRecordsAction::getAllHealthRecords UC23 1
+ChronicDiseaseRiskAction::getDiseasesAtRisk UC16 1
+HealthRecordsDAO::getAllHealthRecords UC16 1
+AdverseEventDAO::getPerscriptions UC36 1
+monitorPatients_jsp::_jspService UC34 1
+EditMonitoringListAction::addToList UC34 1
+ViewReportRequestsAction::getLongStatus UC19 1
+ViewExpiredPrescriptionsAction::getPrescriptionsForPatient UC31 1
+EditHealthHistoryAction::getPatientName UC10 1
+AddPatientAction::addPatient UC1 1
+AccessDAO::setSessionTimeoutMins UC3 1
+ViewReportAction::getDiagnoses UC23 1
+DiagnosisBeanValidator::validate UC15 1
+EditRepresentativesAction::addRepresentative UC13 1
+EditPatientAction::updateInformation UC4 1
+chronicDiseaseRisks_jsp::_jspService UC16 1
+ReportAdverseEventAction::addReport UC35 1
+AuthDAO::getUserName UC10 1
+AuthDAO::getUserName UC11 1
+AuthDAO::getUserName UC13 1
+AuthDAO::getUserName UC19 1
+AuthDAO::getUserName UC21 1
+AuthDAO::getUserName UC23 1
+AuthDAO::getUserName UC26 1
+AuthDAO::getUserName UC30 1
+AuthDAO::getUserName UC34 1
+DrugInteractionAction::reportInteraction UC38 1
+DrugInteractionDAO::reportInteraction UC38 1
+ReferralManagementAction::getReferralsSentToMe UC33 1
+RemoteMonitoringDAO::storePatientData UC34 1
+UpdateLOINCListAction::updateInformation UC15 1
+RemoteMonitoringDAO::getPatientDataByDate UC34 1
+ReferralManagementAction::sendReferral UC33 1
+LabProcHCP_jsp::_jspService UC26 1
+PatientDAO::getPatientName UC30 1
+LabProcedureDAO::getLabProceduresForPatient UC9 1
+LabProcedureDAO::getLabProceduresForPatient UC26 1
+EditRepresentativesAction::getRepresented UC34 1
+ViewMyRecordsAction::getAllOfficeVisits UC9 1
+ViewMyRecordsAction::getAllOfficeVisits UC23 1
+PatientDAO::getCurrentPrescriptions UC21 1
+PatientDAO::getCurrentPrescriptions UC23 1
+viewLHCP_jsp::_jspService UC31 1
+OfficeVisitDAO::getPrescriptionReportsByDate UC11 1
+OfficeVisitDAO::getPrescriptionReportsByDate UC37 1
+FamilyDAO::getParents UC9 1
+FamilyDAO::getParents UC10 1
+FamilyDAO::getParents UC23 1
+viewMyRecords_jsp::_jspService UC9 1
+viewMyRecords_jsp::_jspService UC26 1
+viewMyRecords_jsp::_jspService UC35 1
+TransactionDAO::getOperationalProfile UC12 1
+addTelemedicineData_jsp::_jspService UC34 1
+viewMyReportRequests_jsp::_jspService UC23 1
+UpdateICDCodeListAction::updateInformation UC15 1
+ViewMyRemoteMonitoringListAction::getPatientName UC34 1
+editICDCodes_jsp::_jspService UC15 1
+ViewMyRecordsAction::getAllergies UC9 1
+ViewMyRecordsAction::getAllergies UC23 1
+MedicationBeanValidator::validate UC15 1
+viewAccessLog_jsp::_jspService UC8 1
+LabProcUAPAction::updateProcedure UC26 1
+LabProcUAPAction::updateProcedure UC27 1
+AddUAPAction::add UC2 1
+ViewMyReportRequestsAction::getLongStatus UC3 1
+LOINCDAO::getAllLOINC UC15 1
+ViewSurveyResultAction::getSurveyResultsForHospital UC25 1
+ReportAdverseEventAction::sendMails UC35 1
+ReferralDAO::addReferral UC33 1
+SearchUsersAction::searchForPatientsWithName UC4 1
+OfficeVisitDAO::removeDiagnosisFromOfficeVisit UC11 1
+ReportAdverseEventAction::sendMail UC35 1
+myDiagnoses_jsp::_jspService UC29 1
+AuthDAO::addUser UC1 1
+AuthDAO::addUser UC2 1
+FamilyDAO::getChildren UC10 1
+FamilyDAO::getChildren UC23 1
+GetVisitRemindersAction::getVisitReminders UC17 1
+GetVisitRemindersAction::checkImmunization UC17 1
+PatientDAO::getExpiredPrescriptions UC31 1
+ViewReportAction::getDeclaredHCPs UC23 1
+LOINCDAO::update UC15 1
+LabProcHCPAction::getLabProcForNextMonth UC3 1
+OfficeVisitDAO::addDiagnosisToOfficeVisit UC11 1
+ReferralManagementAction::getReferralsSentFromMe UC33 1
+ViewMyRemoteMonitoringListAction::getPatientsData UC34 1
+hcpConsultation_jsp::_jspService UC33 1
+sessionTimeout_jsp::_jspService UC3 1
+AuthDAO::getUserRole UC3 1
+AuthDAO::getUserRole UC13 1
+EditOfficeVisitAction::checkAddSubAction UC11 1
+ViewMyRecordsAction::getPatient UC23 1
+EditOfficeVisitAction::checkAddPrescription UC11 1
+VisitRemindersDAO::getFluShotDelinquents UC17 1
+UpdateNDCodeListAction::updateInformation UC15 1
+ViewMyRecordsAction::getCompleteOfficeVisit UC35 1
+HospitalsDAO::updateHospital UC18 1
+ViewSurveyResultAction::getSurveyResultsForZip UC25 1
+ICDCodesDAO::addICDCode UC15 1
+ViewMyMessagesAction::getAllMyMessages UC30 1
+editOfficeVisit_jsp::_jspService UC11 1
+editOfficeVisit_jsp::_jspService UC37 1
+LabProcedureDAO::getLabProceduresForPatientForNextMonth UC3 1
+LabProcedureDAO::getLabProceduresForPatientForNextMonth UC26 1
+LabProcUAPAction::viewProcedures UC26 1
+Type2DiabetesRisks::getDiseaseRiskFactors UC16 1
+DeclareHCPAction::undeclareHCP UC6 1
+NDCodesDAO::updateCode UC15 1
+AddHCPAction::add UC2 1
+AdverseEventDAO::addReport UC35 1
+PatientDAO::editPatient UC1 1
+PatientDAO::editPatient UC4 1
+viewVisitedHCPs_jsp::_jspService UC6 1
+addHCP_jsp::_jspService UC2 1
+UpdateLOINCListAction::add UC15 1
+EmergencyReportAction::getPatientAge UC21 1
+editNDCInteractions_jsp::_jspService UC38 1
+DeclareHCPAction::declareHCP UC6 1
+TransactionDAO::getRecordAccess UC10 1
+addPatient_jsp::_jspService UC1 1
+emergencyReport_jsp::_jspService UC21 1
+ReferralDAO::editReferral UC33 1
+MessageDAO::addMessage UC30 1
+MessageDAO::addMessage UC36 1
+EditPHRAction::updateAllergies UC10 1
+PatientDAO::removeRepresentative UC13 1
+EditOfficeVisitAction::checkRemoveSubAction UC11 1
+EmergencyReportAction::getPatientEmergencyContacts UC21 1
+PatientDAO::getAllPatients UC33 1
+PatientDAO::getDiagnoses UC21 1
+PatientDAO::getDiagnoses UC23 1
+PatientDAO::getDiagnoses UC29 1
+SurveyDAO::addCompletedSurvey UC24 1
+viewMyMessages_jsp::_jspService UC30 1
+updateLabProc_jsp::_jspService UC26 1
+updateLabProc_jsp::_jspService UC27 1
+PersonnelValidator::validate UC4 1
+PatientDAO::getName UC36 1
+ReferralDAO::getReferralsSentTo UC33 1
+ViewVisitedHCPsAction::filterHCPList UC6 1
+PatientDAO::getImmunizationProcedures UC21 1
+EmergecnyReportAction::getWarningDiagnoses UC21 1
+EditMonitoringListAction::getPatientName UC34 1
+reportAdverseEvent_jsp::_jspService UC35 1
+NDCodesDAO::getAllNDCodes UC15 1
+DrugInteractionAction::deleteInteraction UC38 1
+viewPrescriptionRenewalNeeds_jsp::_jspService UC32 1
+EditHealthHistoryAction::getAllHealthRecords UC10 1
+OfficeVisitDAO::removeProcedureFromOfficeVisit UC11 1
+AuthDAO::resetPassword UC3 1
+ViewMyAccessLogAction::getAccesses UC8 1
+PersonnelDAO::editPersonnel UC2 1
+PersonnelDAO::editPersonnel UC4 1
+viewReport_jsp::_jspService UC23 1
+HospitalBeanValidator::validate UC18 1
+UpdateHospitalListAction::updateHospital UC18 1
+PatientDAO::getRepresenting UC23 1
+PatientDAO::getRepresenting UC34 1
+PatientDAO::getDeclaredHCPs UC6 1
+PatientDAO::getDeclaredHCPs UC23 1
+GetUserNameAction::getUserName UC10 1
+GetUserNameAction::getUserName UC11 1
+GetUserNameAction::getUserName UC13 1
+GetUserNameAction::getUserName UC19 1
+GetUserNameAction::getUserName UC21 1
+GetUserNameAction::getUserName UC23 1
+GetUserNameAction::getUserName UC26 1
+GetUserNameAction::getUserName UC30 1
+GetUserNameAction::getUserName UC34 1
+MessageDAO::getMessagesFor UC30 1
+editCPTProcedureCodes_jsp::_jspService UC15 1
+TransactionDAO::getAllRecordAccesses UC8 1
+CPTCodesDAO::getAllCPTCodes UC15 1
+ViewVisitedHCPsAction::undeclareHCP UC6 1
+editNDCodes_jsp::_jspService UC15 1
+editNDCodes_jsp::_jspService UC38 1
+viewPrescriptionRecords_jsp::_jspService UC19 1
+viewPrescriptionRecords_jsp::_jspService UC35 1
+ReferralManagementAction::updateReferral UC33 1
+ResetPasswordAction::isMaxedOut UC3 1
+ResetPasswordAction::resetPassword UC3 1
+ResetPasswordAction::resetPassword UC27 1
+ViewVisitedHCPsAction::getVisitedHCPs UC6 1
+MonitorAdverseEventAction::sendEmail UC36 1
+OfficeVisitDAO::getAllOfficeVisits UC9 1
+OfficeVisitDAO::getAllOfficeVisits UC10 1
+OfficeVisitDAO::getAllOfficeVisits UC23 1
+RemoteMonitoringDAO::getNumberOfDailyEntries UC34 1
+VisitRemindersDAO::getPatients UC17 1
+HospitalsDAO::addHospital UC18 1
+LabProcedureDAO::getAllLabProceduresDate UC26 1
+getPatientID_jsp::_jspService UC4 1
+getPatientID_jsp::_jspService UC23 1
+getPatientID_jsp::_jspService UC26 1
+getPatientID_jsp::_jspService UC30 1
+getPatientID_jsp::_jspService UC34 1
+PatientDAO::getRepresented UC23 1
+PatientDAO::getRepresented UC34 1
+SendMessageAction::sendMessage UC30 1
+SendMessageAction::sendMessage UC36 1
+ViewMyRecordsAction::getFamilyHistory UC9 1
+PatientDAO::checkDeclaredHCP UC6 1
+PatientDAO::checkDeclaredHCP UC33 1
+VisitRemindersDAO::getDiagnosedVisitNeeders UC17 1
+RemoteMonitoringDataBeanValidator::validate UC34 1
+EditPHRAction::getAllOfficeVisits UC10 1
+ChronicDiseaseRiskAction::getPatientID UC16 1
+editPatientList_jsp::_jspService UC34 1
+EditPatientAction::getPid UC4 1
+editLOINCCodes_jsp::_jspService UC15 1
+DrugDAO::getInteractions UC11 1
+EmergencyReportAction::getAllergies UC21 1
+ReportRequestDAO::getAllReportRequestsForPatient UC21 1
+ReferralDAO::getReferralsSentFrom UC33 1
+CPTCodesDAO::addCPTCode UC15 1
+ResetPasswordAction::checkAnswerNull UC3 1
+HealthRecordDAO::add UC10 1
+monitorAdverseEvents_jsp::_jspService UC36 1
+reply_jsp::_jspService UC30 1
+PatientDAO::getProcedures UC23 1
+addUAP_jsp::_jspService UC2 1
+HealthRecordDAO::getAllHealthRecords UC9 1
+HealthRecordDAO::getAllHealthRecords UC10 1
+HealthRecordDAO::getAllHealthRecords UC23 1
+home_jsp::_jspService UC3 1
+home_jsp::_jspService UC10 1
+home_jsp::_jspService UC12 1
+home_jsp::_jspService UC19 1
+home_jsp::_jspService UC21 1
+home_jsp::_jspService UC26 1
+editMyDemographics_jsp::_jspService UC4 1
+visitReminders_jsp::_jspService UC17 1
+PatientDAO::undeclareHCP UC6 1
+UpdateCPTCodeListAction::updateInformation UC15 1
+adverseEventDetails_jsp::_jspService UC36 1
+MonitorAdverseEventAction::remove UC36 1
+ReportRequestDAO::getAllReportRequestsForRequester UC3 1
+ReportRequestDAO::getAllReportRequestsForRequester UC23 1
+HeartDiseaseRisks::getDiseaseRiskFactors UC16 1
+DrugInteractionDAO::getInteractions UC37 1
+DrugInteractionDAO::getInteractions UC38 1
+barchart_jsp::_jspService UC36 1
+OfficeVisitDAO::getAllOfficeVisitsForDiagnosis UC29 1
+survey_jsp::_jspService UC24 1
+LOINCBeanValidator::validate UC15 1
+EditOfficeVisitAction::updateInformation UC11 1
+viewPatientOfficeVisitHistory_jsp::_jspService UC28 1
+AuthDAO::getResetPasswordFailures UC3 1
+SetSecurityQuestionAction::updateInformation UC4 1

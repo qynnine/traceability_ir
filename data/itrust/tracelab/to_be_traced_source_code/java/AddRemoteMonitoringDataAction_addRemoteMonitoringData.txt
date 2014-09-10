@@ -1,1 +1,6 @@
-AddRemoteMonitoringDataAction addRemoteMonitoringData rmdBean 
+AddRemoteMonitoringDataAction addRemoteMonitoringData rmdBean /** 
+ * Adds a patient's telemedicine data to the database.
+ * @param weight
+ * @param pedometerReading
+ * @throws DBException
+ */

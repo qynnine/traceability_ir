@@ -1,1 +1,6 @@
-LabProcedureDAO getLabProceduresForPatient id 
+LabProcedureDAO getLabProceduresForPatient id /** 
+ * Get a list of the lab procedures associated with a given patient.
+ * @param id The MID of the patient as a long.
+ * @return A java.util.List of LabProcedureBeans
+ * @throws DBException
+ */

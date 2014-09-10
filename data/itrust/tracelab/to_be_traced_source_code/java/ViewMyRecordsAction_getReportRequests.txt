@@ -1,1 +1,5 @@
-ViewMyRecordsAction getReportRequests 
+ViewMyRecordsAction getReportRequests /** 
+ * Returns all the report requests for the logged in patient
+ * @return the report requests for the logged in patient
+ * @throws iTrustException
+ */

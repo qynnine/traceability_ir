@@ -1,1 +1,6 @@
-LabProcUAPAction viewProcedures id 
+LabProcUAPAction viewProcedures id /** 
+ * Returns a list of all the lab procedures for a particular patient.
+ * @param id MID of the UAP viewing the procedures 
+ * @return a list of all the lab procedures for that UAP
+ * @throws DBException
+ */

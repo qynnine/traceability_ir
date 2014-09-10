@@ -1,1 +1,7 @@
-DeclareHCPAction undeclareHCP input 
+DeclareHCPAction undeclareHCP input /** 
+ * Validate an HCP's MID and undeclare them, if possible
+ * @param inputThe MID of an HCP to undeclare
+ * @return
+ * @throws iTrustException
+ * @author Andy Meneely
+ */

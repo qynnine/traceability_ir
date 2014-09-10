@@ -1,1 +1,6 @@
-ReferralDAO getReferralsSentTo mid 
+ReferralDAO getReferralsSentTo mid /** 
+ * Gets a list of all referrals sent to an HCP
+ * @param mid The HCP's mid.
+ * @return The list of the referrals sent to them.
+ * @throws DBException
+ */

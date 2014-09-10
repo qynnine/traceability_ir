@@ -1,1 +1,5 @@
-ViewMyRecordsAction getRepresenting 
+ViewMyRecordsAction getRepresenting /** 
+ * Returns a list of PatientBeans of all patients the currently logged in patient represents
+ * @return a list of PatientBeans of all patients the currently logged in patient represents
+ * @throws iTrustException
+ */

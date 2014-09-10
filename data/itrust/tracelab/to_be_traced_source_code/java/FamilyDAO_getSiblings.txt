@@ -1,1 +1,7 @@
-FamilyDAO getSiblings pid 
+FamilyDAO getSiblings pid /** 
+ * Return a list of patients who share at least one parent (and that parent is not '0') with this patient
+ * @param pid -
+ * this patient
+ * @return A java.util.list of FamilyMemberBeans.
+ * @throws DBException
+ */

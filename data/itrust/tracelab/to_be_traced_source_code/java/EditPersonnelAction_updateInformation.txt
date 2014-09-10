@@ -1,1 +1,6 @@
-EditPersonnelAction updateInformation personnelForm 
+EditPersonnelAction updateInformation personnelForm /** 
+ * Takes information from the personnelForm param and updates the patient
+ * @param personnelFormPersonnelBean with new information
+ * @throws iTrustException
+ * @throws FormValidationException
+ */

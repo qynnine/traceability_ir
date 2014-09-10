@@ -1,1 +1,4 @@
-EmergencyReportAction getPatientAge 
+EmergencyReportAction getPatientAge /** 
+ * Returns the patient's age
+ * @return patient's age
+ */

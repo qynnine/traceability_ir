@@ -1,1 +1,7 @@
-RiskChecker isAtRisk 
+RiskChecker isAtRisk /** 
+ * This method exists purely for performance - just stop once you hit the threshold. <br />
+ * <br />
+ * Also, the risk factors should be cached in the RiskFactor implementors - in getPatientRiskFactors there
+ * should be no double-querying
+ * @return isAtRisk
+ */

@@ -1,1 +1,8 @@
-PatientDAO getRenewalNeedsPatients hcpMID 
+PatientDAO getRenewalNeedsPatients hcpMID /** 
+ * Return a list of patients with a special-diagnosis-history who
+ * have the logged in HCP as a DHCP and whose medications are going to
+ * expire within seven days.
+ * @param hcpMID The MID of the logged in HCP
+ * @return A list of patients satisfying the conditions.
+ * @throws DBException
+ */

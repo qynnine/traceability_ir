@@ -1,1 +1,5 @@
-SessionTimeoutListener sessionCreated arg0 
+SessionTimeoutListener sessionCreated arg0 /** 
+ * Called when the HttpSession is created, this method pulls the pre-specified limit from the
+ * database and sets it as a property of the HttpSession.
+ * @param arg0 The HttpSessionEven which just occurred.
+ */

@@ -1,1 +1,7 @@
-ICDCodesDAO addICDCode diag 
+ICDCodesDAO addICDCode diag /** 
+ * Adds an ICD9CM code. Returns whether or not the change was made.
+ * @param diag The DiagnosisBean representing the changes.
+ * @return A boolean indicating success.
+ * @throws DBException
+ * @throws iTrustException
+ */

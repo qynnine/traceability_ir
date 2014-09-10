@@ -1,1 +1,6 @@
-UpdateLOINCListAction updateInformation diagn 
+UpdateLOINCListAction updateInformation diagn /** 
+ * Updates a LOINC
+ * @param diagnnew information to update (but same code)
+ * @return Status message
+ * @throws FormValidationException
+ */

@@ -1,1 +1,8 @@
-ReportRequestDAO addReportRequest requesterMID patientMID date 
+ReportRequestDAO addReportRequest requesterMID patientMID date /** 
+ * Adds a request for a report.
+ * @param requesterMID The MID of the requester.
+ * @param patientMID The MID of the patient in question.
+ * @param date The date the request was made.
+ * @return A long of the unique ID of the report request.
+ * @throws DBException
+ */

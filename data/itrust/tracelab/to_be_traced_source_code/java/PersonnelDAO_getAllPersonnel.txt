@@ -1,1 +1,5 @@
-PersonnelDAO getAllPersonnel 
+PersonnelDAO getAllPersonnel /** 
+ * Returns all personnel in the database.
+ * @return A java.util.List of personnel.
+ * @throws DBException
+ */

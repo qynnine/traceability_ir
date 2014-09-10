@@ -1,1 +1,7 @@
-ViewSurveyResultAction getSurveyResultsForHospital bean 
+ViewSurveyResultAction getSurveyResultsForHospital bean /** 
+ * Retrieves survey results for a whole hospital.
+ * @param bean The SurveyResultBean containing the survey result specs.
+ * @return A java.util.List of Survey Results.
+ * @throws iTrustException
+ * @throws FormValidationException
+ */

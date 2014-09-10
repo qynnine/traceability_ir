@@ -1,1 +1,5 @@
-ReferralDAO addReferral r 
+ReferralDAO addReferral r /** 
+ * Adds a given referral to the database.
+ * @param r The referral to add.
+ * @throws DBException
+ */

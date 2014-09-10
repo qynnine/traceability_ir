@@ -1,1 +1,6 @@
-DrugInteractionAction deleteInteraction firstDrug secondDrug 
+DrugInteractionAction deleteInteraction firstDrug secondDrug /** 
+ * Method to delete an interaction
+ * @param firstDrug
+ * @param secondDrug
+ * @return
+ */

@@ -1,1 +1,8 @@
-PatientDAO addRepresentative representer representee 
+PatientDAO addRepresentative representer representee /** 
+ * Assign a representer to the representee
+ * @param representer The MID of the representer as a long.
+ * @param representee The MID of the representee as a long.
+ * @return A boolean as to whether the insertion was correct.
+ * @throws DBException
+ * @throws iTrustException
+ */

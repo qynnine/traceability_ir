@@ -1,1 +1,8 @@
-EditOfficeVisitAction updateInformation form 
+EditOfficeVisitAction updateInformation form /** 
+ * Updates the office visit with information from the form passed in.  If 
+ * the office visit has not yet been saved, calling this method will save 
+ * it as well as make the sub actions able to be saved.
+ * @param forminformation to update
+ * @return "success" or exception's message
+ * @throws FormValidationException
+ */

@@ -1,1 +1,7 @@
-SurveyResultDAO getSurveyResultsForZip zip specialty 
+SurveyResultDAO getSurveyResultsForZip zip specialty /** 
+ * Returns all the survey results in the database that correspond to a particular zip code.
+ * @param zip The zipcode we are interested in as a String.
+ * @param specialty The specialty we are interested in as a String.
+ * @return A java.util.List of SurveyResultBeans.
+ * @throws DBException
+ */

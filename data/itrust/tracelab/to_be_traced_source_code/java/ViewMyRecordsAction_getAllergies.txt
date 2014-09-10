@@ -1,1 +1,5 @@
-ViewMyRecordsAction getAllergies 
+ViewMyRecordsAction getAllergies /** 
+ * Returns a list of AllergyBeans for the currently logged in patient
+ * @return a list of AllergyBeans for the currently logged in patient
+ * @throws iTrustException
+ */

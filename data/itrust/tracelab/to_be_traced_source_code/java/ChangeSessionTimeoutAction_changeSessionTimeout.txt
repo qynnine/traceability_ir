@@ -1,1 +1,7 @@
-ChangeSessionTimeoutAction changeSessionTimeout minuteString 
+ChangeSessionTimeoutAction changeSessionTimeout minuteString /** 
+ * Changes the session timeout, the complicated logic of this is somewhat regrettably in the DAO,{@link AccessDAO}
+ * @param minuteStringPass the number of minutes in the form of a string, greater than 0.
+ * @throws FormValidationException
+ * @throws DBException
+ * @author Andy Meneely
+ */

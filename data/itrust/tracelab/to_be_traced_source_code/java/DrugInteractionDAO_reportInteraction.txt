@@ -1,1 +1,10 @@
-DrugInteractionDAO reportInteraction firstDrug secondDrug description 
+DrugInteractionDAO reportInteraction firstDrug secondDrug description /** 
+ * Adds a new drug interaction, returns whether or not the addition was successful. If the code already exists, an
+ * iTrustException is thrown.
+ * @param firstDrug  The name of the first drug in an interaction.
+ * @param secondDrug  The name of the second drug in an interaction.
+ * @param description  Explanation of the drug interaction.
+ * @return A boolean indicating success or failure.
+ * @throws DBException
+ * @throws iTrustException
+ */

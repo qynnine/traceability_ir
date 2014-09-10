@@ -1,1 +1,5 @@
-DrugInteractionDAO getInteractions drugCode 
+DrugInteractionDAO getInteractions drugCode /** 
+ * Returns a list of all drug interactions for the input drug name
+ * @return A java.util.List of DrugInteractionBeans.
+ * @throws DBException
+ */

@@ -1,1 +1,5 @@
-EmergencyReportAction getCurrentPrescriptions 
+EmergencyReportAction getCurrentPrescriptions /** 
+ * Returns a list of prescriptions the patient is currently taking
+ * @return a list of PrescriptionBeans for which the patient is currently taking
+ * @throws iTrustException
+ */

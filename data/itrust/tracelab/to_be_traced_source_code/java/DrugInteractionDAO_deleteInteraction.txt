@@ -1,1 +1,6 @@
-DrugInteractionDAO deleteInteraction firstDrug secondDrug 
+DrugInteractionDAO deleteInteraction firstDrug secondDrug /** 
+ * Remove an interaction from the database
+ * @param firstDrug  The name of the first patient
+ * @param secondDrug  The name of the second patient
+ * @return true if removed successfully, false if not in list
+ */

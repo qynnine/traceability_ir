@@ -1,1 +1,5 @@
-AccessDAO setSessionTimeoutMins mins 
+AccessDAO setSessionTimeoutMins mins /** 
+ * Sets the number of minutes it would take for a session to timeout.
+ * @param mins An int specifying the number of minutes
+ * @throws DBException
+ */

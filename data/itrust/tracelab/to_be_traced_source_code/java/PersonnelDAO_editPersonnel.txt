@@ -1,1 +1,5 @@
-PersonnelDAO editPersonnel p 
+PersonnelDAO editPersonnel p /** 
+ * Updates the demographics for a personnel.
+ * @param p The personnel bean with the updated information.
+ * @throws DBException
+ */

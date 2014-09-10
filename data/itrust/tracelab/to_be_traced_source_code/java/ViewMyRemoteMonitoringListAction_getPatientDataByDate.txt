@@ -1,1 +1,6 @@
-ViewMyRemoteMonitoringListAction getPatientDataByDate patientMID startDate endDate 
+ViewMyRemoteMonitoringListAction getPatientDataByDate patientMID startDate endDate /** 
+ * Returns a list of RemoteMonitoringDataBeans for the logged in HCP
+ * @return list of TransactionBeans
+ * @throws DBException
+ * @throws FormValidationException
+ */

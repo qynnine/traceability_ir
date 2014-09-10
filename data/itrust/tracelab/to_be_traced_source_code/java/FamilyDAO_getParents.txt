@@ -1,1 +1,7 @@
-FamilyDAO getParents pid 
+FamilyDAO getParents pid /** 
+ * Return the information of the mother and father of this patient
+ * @param pid -
+ * this patient
+ * @return
+ * @throws DBException
+ */

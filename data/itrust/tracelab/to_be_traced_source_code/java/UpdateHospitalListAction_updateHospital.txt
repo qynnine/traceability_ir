@@ -1,1 +1,6 @@
-UpdateHospitalListAction updateHospital hosp 
+UpdateHospitalListAction updateHospital hosp /** 
+ * Updates hospital
+ * @param hosp new information
+ * @return id for the updated hospital
+ * @throws DBException
+ */

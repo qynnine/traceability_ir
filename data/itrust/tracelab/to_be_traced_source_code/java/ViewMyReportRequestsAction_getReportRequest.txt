@@ -1,1 +1,6 @@
-ViewMyReportRequestsAction getReportRequest ID 
+ViewMyReportRequestsAction getReportRequest ID /** 
+ * Returns the requested report
+ * @param ID id of the requested report
+ * @return the requested report
+ * @throws iTrustException
+ */

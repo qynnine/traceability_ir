@@ -1,1 +1,5 @@
-ViewMyRecordsAction getAllHealthRecords 
+ViewMyRecordsAction getAllHealthRecords /** 
+ * Returns a list of HealthRecords for the currently logged in patient
+ * @return a list of HealthRecords for the currently logged in patient
+ * @throws iTrustException
+ */

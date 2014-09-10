@@ -1,1 +1,6 @@
-OfficeVisitDAO getAllOfficeVisits pid 
+OfficeVisitDAO getAllOfficeVisits pid /** 
+ * Returns a list of all office visits for a given patient
+ * @param pid The MID of the patient in question.
+ * @return A java.util.List of OfficeVisitBeans.
+ * @throws DBException
+ */

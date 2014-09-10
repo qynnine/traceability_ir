@@ -1,1 +1,8 @@
-ViewMyAccessLogAction getAccesses lowerDate upperDate logMID getByRole 
+ViewMyAccessLogAction getAccesses lowerDate upperDate logMID getByRole /** 
+ * Returns a list of TransactionBeans between the two dates passed as params
+ * @param lowerDatethe first date
+ * @param upperDatethe second date
+ * @return list of TransactionBeans
+ * @throws DBException
+ * @throws FormValidationException
+ */

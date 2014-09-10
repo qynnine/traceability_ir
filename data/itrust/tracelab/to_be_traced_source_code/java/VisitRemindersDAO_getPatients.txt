@@ -1,1 +1,5 @@
-VisitRemindersDAO getPatients hcpid 
+VisitRemindersDAO getPatients hcpid /** 
+ * Returns a list of patients associated with a given HCP.
+ * @param hcpid The MID of the HCP in question.
+ * @return A java.util.List of Visit Reminder Forms.
+ */

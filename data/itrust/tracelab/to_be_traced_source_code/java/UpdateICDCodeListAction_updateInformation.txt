@@ -1,1 +1,6 @@
-UpdateICDCodeListAction updateInformation diagn 
+UpdateICDCodeListAction updateInformation diagn /** 
+ * Updates a diagnosis with new information from the DiagnosisBean passed as a param
+ * @param diagnnew information to update (but same code)
+ * @return Status message
+ * @throws FormValidationException
+ */

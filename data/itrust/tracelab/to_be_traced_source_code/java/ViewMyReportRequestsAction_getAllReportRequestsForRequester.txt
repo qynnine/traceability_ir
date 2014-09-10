@@ -1,1 +1,5 @@
-ViewMyReportRequestsAction getAllReportRequestsForRequester 
+ViewMyReportRequestsAction getAllReportRequestsForRequester /** 
+ * Returns all the reports for the currently logged in HCP
+ * @return list of all reports for the logged in HCP
+ * @throws iTrustException
+ */

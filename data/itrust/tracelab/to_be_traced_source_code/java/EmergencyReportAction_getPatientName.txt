@@ -1,1 +1,4 @@
-EmergencyReportAction getPatientName 
+EmergencyReportAction getPatientName /** 
+ * Returns the patient's name
+ * @return patient's full name
+ */

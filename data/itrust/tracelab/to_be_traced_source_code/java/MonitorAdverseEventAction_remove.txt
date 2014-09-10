@@ -1,1 +1,6 @@
-MonitorAdverseEventAction remove id 
+MonitorAdverseEventAction remove id /** 
+ * Method used to remove an adverse event report
+ * @param id the id of the report to be removed
+ * @throws DBException
+ * @throws iTrustException
+ */

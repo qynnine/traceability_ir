@@ -1,1 +1,7 @@
-GetUserNameAction getUserName inputMID 
+GetUserNameAction getUserName inputMID /** 
+ * Returns the person's name that matches the inputMID param
+ * @param inputMID The MID to look up.
+ * @return the person's name
+ * @throws DBException
+ * @throws iTrustException
+ */

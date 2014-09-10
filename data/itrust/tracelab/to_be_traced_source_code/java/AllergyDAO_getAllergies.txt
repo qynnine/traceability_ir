@@ -1,1 +1,6 @@
-AllergyDAO getAllergies pid 
+AllergyDAO getAllergies pid /** 
+ * Returns a list of patient's allergies.
+ * @param pid A long for the MID of the patient we are looking up.
+ * @return A java.util.List of AllergyBeans associated with this patient.
+ * @throws DBException
+ */

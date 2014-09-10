@@ -1,1 +1,5 @@
-MonitorAdverseEventAction getName MID 
+MonitorAdverseEventAction getName MID /** 
+ * Returns the patient's name
+ * @param MID the MID of the patient to return the name for.
+ * @return
+ */

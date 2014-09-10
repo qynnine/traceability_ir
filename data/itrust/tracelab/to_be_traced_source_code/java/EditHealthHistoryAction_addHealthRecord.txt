@@ -1,1 +1,7 @@
-EditHealthHistoryAction addHealthRecord pid hr 
+EditHealthHistoryAction addHealthRecord pid hr /** 
+ * Adds a health record for the given patient
+ * @param pid  The patient record who is being edited.
+ * @param hr  The filled out health record form to be added.
+ * @return message - "Information Recorded" or exception's message
+ * @throws FormValidationException
+ */

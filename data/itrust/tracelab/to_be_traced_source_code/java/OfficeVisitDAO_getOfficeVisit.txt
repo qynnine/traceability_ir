@@ -1,1 +1,6 @@
-OfficeVisitDAO getOfficeVisit visitID 
+OfficeVisitDAO getOfficeVisit visitID /** 
+ * Returns a particular office visit given an ID
+ * @param visitID The unique ID of the office visit.
+ * @return An OfficeVisitBean with the specifics for that office visit.
+ * @throws DBException
+ */

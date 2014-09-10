@@ -1,1 +1,6 @@
-ViewReportAction getDiagnoses pid 
+ViewReportAction getDiagnoses pid /** 
+ * Get diagnosis list for the given patient
+ * @param pid the patient of interest
+ * @return list of diagnoses
+ * @throws iTrustException
+ */

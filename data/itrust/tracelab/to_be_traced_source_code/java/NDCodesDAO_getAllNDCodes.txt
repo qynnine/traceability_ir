@@ -1,1 +1,5 @@
-NDCodesDAO getAllNDCodes 
+NDCodesDAO getAllNDCodes /** 
+ * Returns a list of all ND codes
+ * @return A java.util.List of MedicationBeans.
+ * @throws DBException
+ */

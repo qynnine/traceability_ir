@@ -1,1 +1,6 @@
-LabProcUAPAction updateProcedure b 
+LabProcUAPAction updateProcedure b /** 
+ * Updates a lab procedure
+ * @param b the procedure to update
+ * @throws DBException
+ * @throws FormValidationException
+ */

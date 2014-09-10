@@ -1,1 +1,6 @@
-LOINCDAO addLOINC hosp 
+LOINCDAO addLOINC hosp /** 
+ * Adds a LOINC
+ * @param hosp The LOINCbean representing the new code to be added.
+ * @throws DBException
+ * @throws iTrustException
+ */

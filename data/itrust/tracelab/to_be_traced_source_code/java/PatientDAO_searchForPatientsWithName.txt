@@ -1,1 +1,7 @@
-PatientDAO searchForPatientsWithName first last 
+PatientDAO searchForPatientsWithName first last /** 
+ * Returns all patients with names "LIKE" (as in SQL) the passed in parameters.
+ * @param first The patient's first name.
+ * @param last The patient's last name.
+ * @return A java.util.List of PatientBeans.
+ * @throws DBException
+ */

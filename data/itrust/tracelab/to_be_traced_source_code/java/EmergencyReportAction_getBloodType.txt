@@ -1,1 +1,4 @@
-EmergencyReportAction getBloodType 
+EmergencyReportAction getBloodType /** 
+ * Returns the patient's blood type
+ * @return the patient's blood type
+ */

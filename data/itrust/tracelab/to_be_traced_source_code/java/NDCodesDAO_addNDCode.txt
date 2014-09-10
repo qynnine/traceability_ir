@@ -1,1 +1,8 @@
-NDCodesDAO addNDCode med 
+NDCodesDAO addNDCode med /** 
+ * Adds a new ND code, returns whether or not the change was made. If the code already exists, an
+ * iTrustException is thrown.
+ * @param med The medication bean to be added.
+ * @return A boolean indicating success or failure.
+ * @throws DBException
+ * @throws iTrustException
+ */

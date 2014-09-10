@@ -1,1 +1,5 @@
-SurveyDAO addCompletedSurvey surveyBean date 
+SurveyDAO addCompletedSurvey surveyBean date /** 
+ * Insert survey data into database.
+ * @param surveyBean The Bean representing the user's responses which will be inserted.
+ * @param date The date the survey was completed.
+ */

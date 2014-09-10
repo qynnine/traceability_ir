@@ -1,1 +1,5 @@
-TransactionDAO getOperationalProfile 
+TransactionDAO getOperationalProfile /** 
+ * Returns the operation profile
+ * @return The OperationalProfile as a bean.
+ * @throws DBException
+ */

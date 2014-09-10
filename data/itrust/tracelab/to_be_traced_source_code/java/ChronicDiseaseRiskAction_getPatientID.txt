@@ -1,1 +1,5 @@
-ChronicDiseaseRiskAction getPatientID 
+ChronicDiseaseRiskAction getPatientID /** 
+ * Returns the ID of the patient to be checked.
+ * @return patient ID whose risk we are checking
+ * @author Andy Meneely
+ */

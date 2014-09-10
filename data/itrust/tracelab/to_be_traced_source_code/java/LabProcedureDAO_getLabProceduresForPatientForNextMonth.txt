@@ -1,1 +1,6 @@
-LabProcedureDAO getLabProceduresForPatientForNextMonth id 
+LabProcedureDAO getLabProceduresForPatientForNextMonth id /** 
+ * Gets all the lab procedures for a given patient that occur within the next month.
+ * @param id The MID of the patient as a long.
+ * @return A java.util.List of LabProcedureBeans.
+ * @throws DBException
+ */

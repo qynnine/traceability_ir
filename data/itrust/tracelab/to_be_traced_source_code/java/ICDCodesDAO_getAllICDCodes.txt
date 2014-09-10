@@ -1,1 +1,5 @@
-ICDCodesDAO getAllICDCodes 
+ICDCodesDAO getAllICDCodes /** 
+ * Returns all ICD9CM codes sorted by code
+ * @return java.util.List of DiagnosisBeans
+ * @throws DBException
+ */

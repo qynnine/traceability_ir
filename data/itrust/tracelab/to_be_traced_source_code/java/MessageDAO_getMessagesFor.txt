@@ -1,1 +1,6 @@
-MessageDAO getMessagesFor mid 
+MessageDAO getMessagesFor mid /** 
+ * Gets all the messages for a certain user MID.
+ * @param mid The MID of the user to be looked up.
+ * @return A java.util.List of MessageBeans.
+ * @throws SQLException
+ */

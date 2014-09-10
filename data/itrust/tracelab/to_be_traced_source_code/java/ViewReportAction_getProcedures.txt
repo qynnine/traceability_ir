@@ -1,1 +1,6 @@
-ViewReportAction getProcedures pid 
+ViewReportAction getProcedures pid /** 
+ * Get procedure list for the given patient
+ * @param pid the patient of interest
+ * @return list of procedures
+ * @throws iTrustException
+ */

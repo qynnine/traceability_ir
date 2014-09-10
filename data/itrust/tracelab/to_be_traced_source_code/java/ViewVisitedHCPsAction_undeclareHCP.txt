@@ -1,1 +1,6 @@
-ViewVisitedHCPsAction undeclareHCP name 
+ViewVisitedHCPsAction undeclareHCP name /** 
+ * Set a given HCP as undeclared.
+ * @param name HCP to undeclare.
+ * @return An empty string.
+ * @throws iTrustException
+ */

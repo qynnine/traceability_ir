@@ -1,1 +1,6 @@
-PatientDAO getPrescriptions patientID 
+PatientDAO getPrescriptions patientID /** 
+ * Return a list of all prescriptions for a patient
+ * @param patientID The MID of the patient in question.
+ * @return A java.util.List of prescriptions.
+ * @throws DBException
+ */

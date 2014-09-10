@@ -1,1 +1,4 @@
-ViewVisitedHCPsAction getVisitedHCPs 
+ViewVisitedHCPsAction getVisitedHCPs /** 
+ * Returns a list of all the visited and/or designated HCPs.
+ * @return list of all the visited HCPs
+ */

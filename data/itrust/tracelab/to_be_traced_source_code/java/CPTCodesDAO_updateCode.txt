@@ -1,1 +1,6 @@
-CPTCodesDAO updateCode proc 
+CPTCodesDAO updateCode proc /** 
+ * Change the procedure description for a particular CPT code
+ * @param proc A ProcedureBean representing the new code information.
+ * @return A boolean for whether the operation was successful.
+ * @throws DBException
+ */

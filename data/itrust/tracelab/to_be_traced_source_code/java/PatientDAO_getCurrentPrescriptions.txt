@@ -1,1 +1,6 @@
-PatientDAO getCurrentPrescriptions patientID 
+PatientDAO getCurrentPrescriptions patientID /** 
+ * Return a list of prescriptions which are currently prescribed for a patient
+ * @param patientID The MID of the patient in question.
+ * @return A java.util.List of prescription beans.
+ * @throws DBException
+ */

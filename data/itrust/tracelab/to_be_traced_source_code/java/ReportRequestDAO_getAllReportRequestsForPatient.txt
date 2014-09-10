@@ -1,1 +1,6 @@
-ReportRequestDAO getAllReportRequestsForPatient pid 
+ReportRequestDAO getAllReportRequestsForPatient pid /** 
+ * Returns all of the report requests associated with a specific patient.
+ * @param pid The MID of the patient in question.
+ * @return A java.util.List of report requests.
+ * @throws DBException
+ */

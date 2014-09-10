@@ -1,1 +1,7 @@
-PatientDAO removeRepresentative representer representee 
+PatientDAO removeRepresentative representer representee /** 
+ * Unassign the representation
+ * @param representer The MID of the representer in question.
+ * @param representee The MID of the representee in question.
+ * @return A boolean indicating whether the unassignment was sucessful.
+ * @throws DBException
+ */

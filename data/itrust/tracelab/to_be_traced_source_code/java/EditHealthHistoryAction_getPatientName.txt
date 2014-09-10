@@ -1,1 +1,6 @@
-EditHealthHistoryAction getPatientName 
+EditHealthHistoryAction getPatientName /** 
+ * returns the patient name
+ * @return patient name
+ * @throws DBException
+ * @throws iTrustException
+ */

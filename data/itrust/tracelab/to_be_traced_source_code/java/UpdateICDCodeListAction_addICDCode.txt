@@ -1,1 +1,6 @@
-UpdateICDCodeListAction addICDCode diagn 
+UpdateICDCodeListAction addICDCode diagn /** 
+ * Adds a new ICD code (diagnosis) based on the DiagnosisBean passed as a param
+ * @param diagnThe new diagnosis (ICD code)
+ * @return Status message
+ * @throws FormValidationException
+ */

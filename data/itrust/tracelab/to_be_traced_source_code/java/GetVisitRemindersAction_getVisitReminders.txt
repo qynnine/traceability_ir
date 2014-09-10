@@ -1,1 +1,7 @@
-GetVisitRemindersAction getVisitReminders type 
+GetVisitRemindersAction getVisitReminders type /** 
+ * Returns a list of VisitReminderReturnForms for the type passed in as a param
+ * @param typethe ReminderType
+ * @return the list of VisitReminderReturnForms
+ * @throws iTrustException
+ * @throws FormValidationException
+ */

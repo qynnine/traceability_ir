@@ -1,1 +1,5 @@
-ViewPatientOfficeVisitHistoryAction getPatients 
+ViewPatientOfficeVisitHistoryAction getPatients /** 
+ * Get the list of patients an HCP has had office visits with
+ * @return the list of patients an HCP has had office visits with
+ * @throws DBException
+ */

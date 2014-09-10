@@ -1,1 +1,7 @@
-AuthDAO getUserRole mid 
+AuthDAO getUserRole mid /** 
+ * Returns the role of a particular MID
+ * @param mid The MID of the user to look up.
+ * @return The {@link Role} of the user as an enum.
+ * @throws DBException
+ * @throws iTrustException
+ */

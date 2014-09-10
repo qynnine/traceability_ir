@@ -1,1 +1,11 @@
-MonitorAdverseEventAction getReports isPrescription start end 
+MonitorAdverseEventAction getReports isPrescription start end /** 
+ * Returns a list of reports between specified dates
+ * @param isPrescription Boolean to return prescriptions or immunizations
+ * @param start The starting date
+ * @param end The ending date
+ * @return the list of events
+ * @throws iTrustException
+ * @throws FormValidationException
+ * @throws SQLException
+ * @throws ParseException
+ */

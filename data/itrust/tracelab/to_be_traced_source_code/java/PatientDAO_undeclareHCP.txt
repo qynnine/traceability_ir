@@ -1,1 +1,7 @@
-PatientDAO undeclareHCP pid hcpID 
+PatientDAO undeclareHCP pid hcpID /** 
+ * Undeclare an HCP for a given patient
+ * @param pid The MID of the patient in question.
+ * @param hcpID The MID of the HCP in question.
+ * @return A boolean indicating whether the action was successful.
+ * @throws DBException
+ */

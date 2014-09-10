@@ -1,1 +1,6 @@
-GetVisitRemindersAction getImmunizationNeeders mid 
+GetVisitRemindersAction getImmunizationNeeders mid /** 
+ * Gets a list of anyone who need immunizations
+ * @param mid the HCP whose patients are being checked
+ * @return a list of all the people who need immunizations--done in a visit reminder
+ * @throws iTrustException
+ */

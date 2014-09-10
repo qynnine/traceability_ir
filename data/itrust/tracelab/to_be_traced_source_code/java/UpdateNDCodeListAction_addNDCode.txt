@@ -1,1 +1,6 @@
-UpdateNDCodeListAction addNDCode med 
+UpdateNDCodeListAction addNDCode med /** 
+ * Adds a new ND Code (prescription) to the list
+ * @param medThe new ND Code to be added
+ * @return Status message
+ * @throws FormValidationException
+ */

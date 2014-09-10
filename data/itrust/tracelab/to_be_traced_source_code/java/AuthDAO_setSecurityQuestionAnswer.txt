@@ -1,1 +1,7 @@
-AuthDAO setSecurityQuestionAnswer question answer mid 
+AuthDAO setSecurityQuestionAnswer question answer mid /** 
+ * Reset the security question and answer for a particular user
+ * @param question The security question as a string.
+ * @param answer The security answer as a string.
+ * @param mid The MID of the user as a long.
+ * @throws DBException
+ */

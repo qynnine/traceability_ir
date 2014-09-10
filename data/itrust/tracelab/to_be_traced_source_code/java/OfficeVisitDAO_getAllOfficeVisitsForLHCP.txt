@@ -1,1 +1,6 @@
-OfficeVisitDAO getAllOfficeVisitsForLHCP mid 
+OfficeVisitDAO getAllOfficeVisitsForLHCP mid /** 
+ * Returns a list of all office visits for a given patient
+ * @param mid The MID of the LHCP you are looking up.
+ * @return A java.util.List of Office Visits.
+ * @throws DBException
+ */

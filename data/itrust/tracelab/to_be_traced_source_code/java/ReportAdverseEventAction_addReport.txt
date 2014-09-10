@@ -1,1 +1,8 @@
-ReportAdverseEventAction addReport aeBean 
+ReportAdverseEventAction addReport aeBean /** 
+ * Method used to add a report to the data base
+ * @param aeBean The adverse event to add
+ * @return a string for testing purposes only
+ * @throws iTrustException
+ * @throws FormValidationException
+ * @throws DBException
+ */

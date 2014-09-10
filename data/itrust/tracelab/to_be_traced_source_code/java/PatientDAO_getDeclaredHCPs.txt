@@ -1,1 +1,6 @@
-PatientDAO getDeclaredHCPs pid 
+PatientDAO getDeclaredHCPs pid /** 
+ * Returns a list of HCPs who are declared by the given patient
+ * @param pid The MID of the patient in question.
+ * @return A java.util.List of Personnel Beans.
+ * @throws DBException
+ */

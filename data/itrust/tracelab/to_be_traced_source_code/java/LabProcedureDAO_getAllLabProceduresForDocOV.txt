@@ -1,1 +1,6 @@
-LabProcedureDAO getAllLabProceduresForDocOV ovid 
+LabProcedureDAO getAllLabProceduresForDocOV ovid /** 
+ * This gets all the procedures for a particular patient on a particular office visit
+ * @param ovid The Office Visit ID.
+ * @return A java.util.List of LabProcedureBeans
+ * @throws DBException
+ */

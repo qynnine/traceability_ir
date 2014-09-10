@@ -46,7 +46,7 @@ public class MethodExtractor {
     }
 
     public static void main(String[] args) {
-        OracleMatrix ansrMatrix = new OracleMatrix(Path.ORACLE_TXT);
+        OracleMatrix ansrMatrix = new OracleMatrix(Path.ORACLE_LITE_TXT);
         MethodExtractor methodExtractor = new MethodExtractor(Path.INVOLVED_JAVA, ansrMatrix.getMethod());
         methodExtractor.exportMethods(Path.TRACELAB_JAVA);
     }

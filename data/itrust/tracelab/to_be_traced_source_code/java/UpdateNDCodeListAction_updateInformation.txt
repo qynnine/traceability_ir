@@ -1,1 +1,6 @@
-UpdateNDCodeListAction updateInformation med 
+UpdateNDCodeListAction updateInformation med /** 
+ * Updates the ND Code with new information from the MedicationBean
+ * @param medthe MedicationBean that holds new information but the same code
+ * @return status message
+ * @throws FormValidationException
+ */

@@ -1,1 +1,7 @@
-PersonnelDAO getName mid 
+PersonnelDAO getName mid /** 
+ * Returns the name for a given MID
+ * @param mid The MID of the personnel in question.
+ * @return A String representing the name of the personnel.
+ * @throws iTrustException
+ * @throws DBException
+ */

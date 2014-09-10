@@ -1,1 +1,4 @@
-LabProcHCPAction getLabProcForNextMonth 
+LabProcHCPAction getLabProcForNextMonth /** 
+ * Returns a list of all the lab procedures for the next month
+ * @return all the lab procedures for the next month
+ */

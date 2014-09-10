@@ -1,1 +1,6 @@
-PatientDAO getPatient mid 
+PatientDAO getPatient mid /** 
+ * Returns the patient's information for a given ID
+ * @param mid The MID of the patient to retrieve.
+ * @return A PatientBean representing the patient.
+ * @throws DBException
+ */

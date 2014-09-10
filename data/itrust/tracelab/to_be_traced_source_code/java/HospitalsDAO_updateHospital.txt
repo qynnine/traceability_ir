@@ -1,1 +1,6 @@
-HospitalsDAO updateHospital hosp 
+HospitalsDAO updateHospital hosp /** 
+ * Updates a particular hospital's description. Returns the number of rows affected (should be 1)
+ * @param hosp The HospitalBean to update.
+ * @return An int indicating the number of affected rows.
+ * @throws DBException
+ */

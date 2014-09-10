@@ -1,1 +1,7 @@
-PersonnelDAO addEmptyPersonnel role 
+PersonnelDAO addEmptyPersonnel role /** 
+ * Adds an empty personnel, and returns the MID.
+ * @return A long indicating the new MID.
+ * @param role A {@link Role} enum indicating the personnel's specific role.
+ * @throws DBException
+ * @throws iTrustException
+ */

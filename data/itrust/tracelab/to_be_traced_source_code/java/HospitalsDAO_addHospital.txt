@@ -1,1 +1,7 @@
-HospitalsDAO addHospital hosp 
+HospitalsDAO addHospital hosp /** 
+ * Adds a hospital
+ * @param hosp The HospitalBean object to insert.
+ * @return A boolean indicating whether the insertion was successful.
+ * @throws DBException
+ * @throws iTrustException
+ */

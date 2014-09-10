@@ -1,1 +1,7 @@
-RemoteMonitoringDAO addPatientToList patientMID HCPMID tBean 
+RemoteMonitoringDAO addPatientToList patientMID HCPMID tBean /** 
+ * Add a patient to the list of HCPs' monitoring lists of Patients
+ * @param patientMID The MID of the patient
+ * @param HCPMID The MID of the HCP
+ * @param tBean The TelemedicineBean indicating what telemedicine data the patient is allowed to enter.
+ * @return true if added successfully, false if already in list
+ */

@@ -1,1 +1,6 @@
-PatientDAO getDiagnoses pid 
+PatientDAO getDiagnoses pid /** 
+ * Return a list of all diagnoses for a given patient
+ * @param pid The MID of the patient in question.
+ * @return A java.util.List of Diagnoses.
+ * @throws DBException
+ */

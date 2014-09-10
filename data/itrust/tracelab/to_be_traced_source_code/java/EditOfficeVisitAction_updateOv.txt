@@ -1,1 +1,6 @@
-EditOfficeVisitAction updateOv form 
+EditOfficeVisitAction updateOv form /** 
+ * Updates the office visit.
+ * @param form form with all the information
+ * @throws DBException
+ * @throws FormValidationException
+ */

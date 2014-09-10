@@ -1,1 +1,6 @@
-EditRepresentativesAction getRepresented pid 
+EditRepresentativesAction getRepresented pid /** 
+ * Return a list of patients that pid represents
+ * @param pid The id of the personnel we are looking up representees for.
+ * @return a list of PatientBeans
+ * @throws iTrustException
+ */

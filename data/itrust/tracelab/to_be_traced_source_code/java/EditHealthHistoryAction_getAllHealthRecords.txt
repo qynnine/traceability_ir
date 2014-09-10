@@ -1,1 +1,6 @@
-EditHealthHistoryAction getAllHealthRecords pid 
+EditHealthHistoryAction getAllHealthRecords pid /** 
+ * Returns a list of all HealthRecords for the given patient
+ * @param pid  The ID of the patient to look up
+ * @return list of HealthRecords
+ * @throws iTrustException
+ */

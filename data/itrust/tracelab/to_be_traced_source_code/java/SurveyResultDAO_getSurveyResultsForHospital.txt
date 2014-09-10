@@ -1,1 +1,7 @@
-SurveyResultDAO getSurveyResultsForHospital hospitalID specialty 
+SurveyResultDAO getSurveyResultsForHospital hospitalID specialty /** 
+ * Returns all the survey data associated with a given hospital and a certain specialty.
+ * @param hospitalID The unique ID of the iTrust hospital we are querying about.
+ * @param specialty A string representing the specialty we are interested in.
+ * @return A java.util.List of SurveyResultBeans.
+ * @throws DBException
+ */

@@ -1,1 +1,5 @@
-ViewMyRecordsAction getCompleteOfficeVisit visitID 
+ViewMyRecordsAction getCompleteOfficeVisit visitID /** 
+ * Returns a complete OfficeVisitBean given a visitID
+ * @return a complete OfficeVisitBean given a visitID
+ * @throws iTrustException
+ */

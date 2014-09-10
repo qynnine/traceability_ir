@@ -1,1 +1,6 @@
-ViewReportAction getPrescriptions pid 
+ViewReportAction getPrescriptions pid /** 
+ * Get prescription list for the given patient
+ * @param pid the patient of interest
+ * @return list of prescriptions
+ * @throws iTrustException
+ */

@@ -1,1 +1,5 @@
-LOINCDAO getAllLOINC 
+LOINCDAO getAllLOINC /** 
+ * Returns all LOINCs as a list.
+ * @return A java.util.List of LOINCbeans.
+ * @throws DBException
+ */

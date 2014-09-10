@@ -1,1 +1,5 @@
-ViewMyRecordsAction getLabs 
+ViewMyRecordsAction getLabs /** 
+ * Returns a list of lab procedures
+ * @return a list of lab procedures for the logged in patient
+ * @throws DBException
+ */

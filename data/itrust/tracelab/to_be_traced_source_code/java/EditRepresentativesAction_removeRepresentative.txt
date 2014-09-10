@@ -1,1 +1,6 @@
-EditRepresentativesAction removeRepresentative input 
+EditRepresentativesAction removeRepresentative input /** 
+ * Makes the patient (pid) no longer represent the input mid param
+ * @param inputthe mid of the person be represented (representee)
+ * @return a message
+ * @throws iTrustException
+ */

@@ -1,1 +1,7 @@
-AuthDAO getUserName mid 
+AuthDAO getUserName mid /** 
+ * Returns the user name of a user from just the MID
+ * @param mid The MID of the user to get the name of.
+ * @return The user's name as a String.
+ * @throws DBException
+ * @throws iTrustException
+ */

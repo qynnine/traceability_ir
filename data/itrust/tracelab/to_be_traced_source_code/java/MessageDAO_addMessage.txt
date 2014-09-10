@@ -1,1 +1,5 @@
-MessageDAO addMessage mBean 
+MessageDAO addMessage mBean /** 
+ * Adds a message to the database.
+ * @param mBean A bean representing the message to be added.
+ * @throws SQLException
+ */

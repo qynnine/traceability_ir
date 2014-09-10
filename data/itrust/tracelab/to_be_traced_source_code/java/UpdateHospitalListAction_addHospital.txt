@@ -1,1 +1,6 @@
-UpdateHospitalListAction addHospital hosp 
+UpdateHospitalListAction addHospital hosp /** 
+ * Adds a hosptial using the HospitalBean passed as a param
+ * @param hospthe new hospital listing
+ * @return Status message
+ * @throws FormValidationException
+ */

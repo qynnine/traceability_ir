@@ -1,1 +1,5 @@
-CPTCodesDAO getAllCPTCodes 
+CPTCodesDAO getAllCPTCodes /** 
+ * Returns a list of all CPT codes.
+ * @return A java.util.List of ProcedureBeans for the CPT codes.
+ * @throws DBException
+ */

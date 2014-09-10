@@ -1,1 +1,7 @@
-CPTCodesDAO addCPTCode proc 
+CPTCodesDAO addCPTCode proc /** 
+ * Adds a new CPT code, returns that it was added successfully
+ * @param proc A ProcedureBean representing the new code information.
+ * @return A boolean for whether the operation was successful.
+ * @throws DBException
+ * @throws iTrustException
+ */

@@ -1,1 +1,6 @@
-NDCodesDAO updateCode med 
+NDCodesDAO updateCode med /** 
+ * Updates a particular code's description
+ * @param med A bean representing the particular medication to be updated.
+ * @return An int representing the number of updated rows.
+ * @throws DBException
+ */

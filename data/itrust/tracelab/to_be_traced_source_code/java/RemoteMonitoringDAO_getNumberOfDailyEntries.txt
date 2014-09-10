@@ -1,1 +1,8 @@
-RemoteMonitoringDAO getNumberOfDailyEntries patientMID dataType 
+RemoteMonitoringDAO getNumberOfDailyEntries patientMID dataType /** 
+ * Private method to get the number of entries for a certain patientID and a certain
+ * data type for today.
+ * @param patientMID
+ * @param dataType
+ * @return the number of entries
+ * @throws DBException
+ */

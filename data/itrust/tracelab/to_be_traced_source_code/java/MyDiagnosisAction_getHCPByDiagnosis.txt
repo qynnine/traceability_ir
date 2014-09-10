@@ -1,1 +1,6 @@
-MyDiagnosisAction getHCPByDiagnosis icdcode 
+MyDiagnosisAction getHCPByDiagnosis icdcode /** 
+ * Returns a list of all the HCPs who have a particular diagnosis
+ * @param icdcode the diagnosis of interest
+ * @return the list of HCPs
+ * @throws DBException
+ */

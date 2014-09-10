@@ -1,1 +1,6 @@
-ICDCodesDAO updateCode diag 
+ICDCodesDAO updateCode diag /** 
+ * Changes a the description of a particular code.
+ * @param diag A DiagnosisBean representing the changes.
+ * @return A boolean indicating the number of updated rows.
+ * @throws DBException
+ */

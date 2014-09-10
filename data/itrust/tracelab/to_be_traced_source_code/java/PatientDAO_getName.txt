@@ -1,1 +1,7 @@
-PatientDAO getName mid 
+PatientDAO getName mid /** 
+ * Returns the name for the given MID
+ * @param mid The MID of the patient in question.
+ * @return A String representing the patient's first name and last name.
+ * @throws iTrustException
+ * @throws DBException
+ */

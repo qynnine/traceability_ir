@@ -1,1 +1,10 @@
-RemoteMonitoringDAO storePatientData patientMID bean reporterRole reporterMID 
+RemoteMonitoringDAO storePatientData patientMID bean reporterRole reporterMID /** 
+ * Store pedometer reading and height/weight data for a given patient in the RemoteMonitoringData table
+ * @param patientMID The MID of the patient
+ * @param height The height of the patient
+ * @param weight The weight of the patient
+ * @param pedometerReading The pedometer reading of the patient
+ * @param reporterRole  The role of the person that reported these monitoring stats
+ * @param reporterMID  The MID of the person that reported these monitoring stats
+ * @throws DBException
+ */

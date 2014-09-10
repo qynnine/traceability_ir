@@ -1,1 +1,5 @@
-SetSecurityQuestionAction updateInformation a 
+SetSecurityQuestionAction updateInformation a /** 
+ * Updates information in the database from the information held in the SecurityQA bean passed as a param
+ * @param aSecurityQuestionBean that holds new information
+ * @throws Exception
+ */

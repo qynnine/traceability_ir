@@ -1,1 +1,5 @@
-ViewMyRecordsAction getAllOfficeVisits 
+ViewMyRecordsAction getAllOfficeVisits /** 
+ * Returns a list of OfficeVisitBeans for all office visits for the currently logged in patient
+ * @return  a list of OfficeVisitBeans for all office visits for the currently logged in patient
+ * @throws iTrustException
+ */

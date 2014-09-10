@@ -1,1 +1,6 @@
-UpdateCPTCodeListAction updateInformation proc 
+UpdateCPTCodeListAction updateInformation proc /** 
+ * Updates a procedure with new information from the ProcedureBean
+ * @param procProcedureBean with new information (but same CPT code)
+ * @return Status message
+ * @throws FormValidationException
+ */

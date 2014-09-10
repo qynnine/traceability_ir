@@ -1,1 +1,5 @@
-EditPHRAction getPatient 
+EditPHRAction getPatient /** 
+ * Returns a PatientBean for the patient
+ * @return PatientBean
+ * @throws iTrustException
+ */

@@ -1,1 +1,6 @@
-ViewMyRecordsAction getPatient mid 
+ViewMyRecordsAction getPatient mid /** 
+ * Returns a PatientBean for the specified MID
+ * @param mid id of the requested bean
+ * @return PatientBean for the specified MID
+ * @throws iTrustException
+ */

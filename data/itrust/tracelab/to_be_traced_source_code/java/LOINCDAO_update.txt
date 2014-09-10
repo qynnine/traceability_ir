@@ -1,1 +1,5 @@
-LOINCDAO update ov 
+LOINCDAO update ov /** 
+ * Updates the information in LOINC.
+ * @param ov
+ * @throws DBException
+ */

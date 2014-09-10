@@ -1,1 +1,5 @@
-HospitalsDAO getAllHospitals 
+HospitalsDAO getAllHospitals /** 
+ * Returns a list of all hospitals sorted alphabetically
+ * @return A java.util.List of HospitalBeans.
+ * @throws DBException
+ */

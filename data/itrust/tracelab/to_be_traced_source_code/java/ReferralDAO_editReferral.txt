@@ -1,1 +1,5 @@
-ReferralDAO editReferral r 
+ReferralDAO editReferral r /** 
+ * Updates a given referral in the database.
+ * @param r The referral to update.
+ * @throws DBException
+ */

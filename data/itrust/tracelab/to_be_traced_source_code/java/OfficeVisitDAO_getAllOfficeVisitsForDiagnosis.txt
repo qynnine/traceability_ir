@@ -1,1 +1,6 @@
-OfficeVisitDAO getAllOfficeVisitsForDiagnosis icdcode 
+OfficeVisitDAO getAllOfficeVisitsForDiagnosis icdcode /** 
+ * Gets all office visits corresponding to a particular ICD diagnosis.
+ * @param icdcode A string represnting the ICD diagnosis to look up.
+ * @return A java.util.List of Office visits.
+ * @throws DBException
+ */

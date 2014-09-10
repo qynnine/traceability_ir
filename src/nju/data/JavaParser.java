@@ -46,6 +46,13 @@ public class JavaParser {
                     m.setKlass(className);
                     m.setName(method.getName().toString());
 
+                    Javadoc javadoc = method.getJavadoc();
+                    if (javadoc !=null) {
+                        m.setDoc(javadoc.toString());
+                    }
+//                    System.out.println(method.getJavadoc());
+//                    System.out.println(result.getLineNumber(method.getStartPosition()));
+
                     List parameterList = method.parameters();
 //                    System.out.println(" parameterList = " + parameterList );
                     ArrayList<String> identifiers = new ArrayList<String>();
@@ -62,5 +69,11 @@ public class JavaParser {
             }
         }
         return allMethod;
+    }
+
+    public static void main(String[] args) {
+        String path = "data/itrust/origin/code/java/MonitorAdverseEventAction.java";
+        List<Method> methods = JavaParser.extractMethods(path);
+        System.out.println(methods);
     }
 }

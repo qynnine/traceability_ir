@@ -10,6 +10,8 @@ public class Method {
     private String klass;
     private String name;
     private List<String> identifiers;
+    private int lineNum;
+    private String doc="";
 
     public Method() {
         identifiers = new ArrayList<>();
@@ -24,6 +26,14 @@ public class Method {
 
     public String getFileName() {
         return name + ".txt";
+    }
+
+    public void setLineNum(int lineNum) {
+        this.lineNum = lineNum;
+    }
+
+    public int getLineNum() {
+        return lineNum;
     }
 
     public void setKlass(String klass) {
@@ -46,6 +56,14 @@ public class Method {
         this.identifiers = identifiers;
     }
 
+    public String getDoc() {
+        return doc;
+    }
+
+    public void setDoc(String doc) {
+        this.doc = doc;
+    }
+
     public String toString() {
         StringBuffer sb = new StringBuffer();
         sb.append(klass);
@@ -56,6 +74,7 @@ public class Method {
             sb.append(s);
             sb.append(" ");
         }
+        sb.append(doc);
         return sb.toString();
     }
 }

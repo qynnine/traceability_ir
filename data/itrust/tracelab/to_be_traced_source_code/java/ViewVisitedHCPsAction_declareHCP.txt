@@ -1,1 +1,6 @@
-ViewVisitedHCPsAction declareHCP name 
+ViewVisitedHCPsAction declareHCP name /** 
+ * Set a given HCP as declared
+ * @param name HCP to declare
+ * @return An empty string.
+ * @throws iTrustException
+ */

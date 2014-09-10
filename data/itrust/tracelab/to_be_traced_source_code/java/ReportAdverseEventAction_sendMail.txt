@@ -1,1 +1,5 @@
-ReportAdverseEventAction sendMail aeBean 
+ReportAdverseEventAction sendMail aeBean /** 
+ * A method used to send a single e-mail. Used in immunizations.
+ * @param aeBean
+ * @return Email returns the Email for testing purposes.
+ */

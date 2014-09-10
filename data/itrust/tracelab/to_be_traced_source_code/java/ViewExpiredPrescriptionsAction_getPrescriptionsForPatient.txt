@@ -1,1 +1,6 @@
-ViewExpiredPrescriptionsAction getPrescriptionsForPatient patientID 
+ViewExpiredPrescriptionsAction getPrescriptionsForPatient patientID /** 
+ * Returns all the prescriptions for a given patient
+ * @param patientID patient in question
+ * @return list of all the prescriptions for that patient
+ * @throws iTrustException
+ */

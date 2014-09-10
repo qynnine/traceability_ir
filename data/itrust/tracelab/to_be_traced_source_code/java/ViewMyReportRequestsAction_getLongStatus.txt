@@ -1,1 +1,6 @@
-ViewMyReportRequestsAction getLongStatus id 
+ViewMyReportRequestsAction getLongStatus id /** 
+ * Gets the status of the request
+ * @param id id of the request
+ * @return the request's status
+ * @throws iTrustException
+ */

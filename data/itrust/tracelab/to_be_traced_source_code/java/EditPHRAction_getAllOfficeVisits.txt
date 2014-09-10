@@ -1,1 +1,5 @@
-EditPHRAction getAllOfficeVisits 
+EditPHRAction getAllOfficeVisits /** 
+ * Returns a list of OfficeVisitBeans
+ * @return
+ * @throws iTrustException
+ */

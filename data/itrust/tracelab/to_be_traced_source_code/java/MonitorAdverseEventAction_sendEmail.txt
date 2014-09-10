@@ -1,1 +1,7 @@
-MonitorAdverseEventAction sendEmail patientMID message 
+MonitorAdverseEventAction sendEmail patientMID message /** 
+ * Sends an e-mail to a patient requesting more information
+ * @param patientMID The patient to receive the message
+ * @param message The message
+ * @return string for testing purposes
+ * @throws DBException
+ */

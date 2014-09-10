@@ -1,1 +1,9 @@
-ViewVisitedHCPsAction filterHCPList lastName specialty zip 
+ViewVisitedHCPsAction filterHCPList lastName specialty zip /** 
+ * Filter the list of HCPs by last name, specialty, or zip code. 
+ * @param doc Filter by lastName.  May be null or the empty string to 
+ * ignore.
+ * @param specialty Filter by specialty.  May be null or the empty string 
+ * to ignore.
+ * @param zip Filter by zip.  May be null or the empty string to ignore.
+ * @return Filtered list of HCPs.
+ */

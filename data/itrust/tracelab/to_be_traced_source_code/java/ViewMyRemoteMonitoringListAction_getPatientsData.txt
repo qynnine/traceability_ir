@@ -1,1 +1,6 @@
-ViewMyRemoteMonitoringListAction getPatientsData 
+ViewMyRemoteMonitoringListAction getPatientsData /** 
+ * Returns a list of RemoteMonitoringDataBeans for the logged in HCP
+ * @return list of TransactionBeans
+ * @throws DBException
+ * @throws FormValidationException
+ */

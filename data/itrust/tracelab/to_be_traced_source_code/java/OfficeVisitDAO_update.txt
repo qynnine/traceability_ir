@@ -1,1 +1,5 @@
-OfficeVisitDAO update ov 
+OfficeVisitDAO update ov /** 
+ * Updates the information in a particular office visit.
+ * @param ov The Office Visit bean representing the changes.
+ * @throws DBException
+ */

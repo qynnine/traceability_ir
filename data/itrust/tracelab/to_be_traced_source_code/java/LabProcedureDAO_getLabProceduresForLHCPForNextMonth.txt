@@ -1,1 +1,6 @@
-LabProcedureDAO getLabProceduresForLHCPForNextMonth ovid 
+LabProcedureDAO getLabProceduresForLHCPForNextMonth ovid /** 
+ * Gets the lab procedures for a given LHCP that occur within the next month.
+ * @param ovid The Office Visit ID conducted by the LHCP in question.
+ * @return A java.util.List of LabProcedureBeans.
+ * @throws DBException
+ */
