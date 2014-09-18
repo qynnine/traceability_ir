@@ -5,9 +5,9 @@ package nju;
  */
 public class Path {
 
-    public static final String CODE = "data/itrust/origin/code/";
-    public static final String JAVA = CODE + "java/";
-    public static final String JSP = CODE + "jsp/";
+    public static final String ORIGIN_CODE = "data/itrust/origin/code/";
+    public static final String ORIGIN_JAVA = ORIGIN_CODE + "java/";
+    public static final String ORIGIN_JSP = ORIGIN_CODE + "jsp/";
     public static final String REQS = "data/itrust/matrix/tmp/reqs.txt";
 
     public static final String INVOLVED_CODE = "data/itrust/involved_code/";
@@ -34,4 +34,7 @@ public class Path {
 
     public static final String MISSED_ORACLE_TXT = "data/itrust/matrix/tmp/missed_oracle.txt";
     public static final String ORACLE_LITE_TXT = "data/itrust/matrix/tmp/oracle_lite.txt";
+
+    public static final String REQ_BYWORDS_XML = "data/itrust/tracelab/reqs_bywords.xml";
+    public static final String CODE_BYWORDS_XML = "data/itrust/tracelab/code_bywords.xml";
 }

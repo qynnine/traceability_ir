@@ -58,10 +58,6 @@ public class Demo {
 //        chart.addLine(scaleThresholdResult);
 //        chart.showChart();
 
-
-
-
-
 //        Sqlite3.writeSimilarityMatrixToDB(result.getMatrix(), Path.OUTPUT_DB);
     }
 }

@@ -238,9 +238,11 @@ public class TermDocumentMatrix {
         StringBuffer sb = new StringBuffer();
 
         for (int i = 0; i < matrix.length; i++) {
+            sb.append(docIndex.get(i) + ": ");
             for (int j = 0; j < matrix[0].length; j++) {
                 sb.append(termIndex.get(j));
-                sb.append("component._");
+                sb.append("._");
+//                sb.append("component._");
                 sb.append(matrix[i][j]);
                 sb.append("\t");
             }

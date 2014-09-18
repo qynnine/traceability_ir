@@ -19,13 +19,15 @@ public class VSM {
 //        System.out.println(" target = \n" + target );
         TermDocumentMatrix IDs = ComputeIdentities(source);
 
-//        System.out.println(" source IDs = \n" + IDs );
+//        System.out.println(" source = " + source );
         TermDocumentMatrix TF = ComputeTF(target);
 //        System.out.println(" target TF = \n" + TF );
         double[] IDF = ComputeIDF(ComputeDF(target), target.NumDocs());
 //        System.out.println(" target IDF = \n" + Arrays.toString(IDF) );
         TermDocumentMatrix TFIDF = ComputeTFIDF(TF, IDF);
+
 //        System.out.println(" target TFIDF = \n" + TFIDF );
+
         return ComputeSimilarities(IDs, TFIDF);
     }
 

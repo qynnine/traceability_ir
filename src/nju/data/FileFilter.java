@@ -23,19 +23,19 @@ public class FileFilter {
 
     public void filterJavaFiles(String sourcePath, String targetPath) {
         List<File> files = filterFiles(sourcePath, ansrMatrix.getKlass(), "java");
-//        System.out.println(files.size());
+        System.out.println(files.size() + " <- " + ansrMatrix.getKlassNum() + " java class files.");
         exportFiles(sourcePath, targetPath, files);
     }
 
     public void filterJspFiles(String sourcePath, String targetPath) {
         List<File> files = filterFiles(sourcePath, ansrMatrix.getJsp(), "jsp");
-//        System.out.println(files.size());
+        System.out.println(files.size() + " <- " + ansrMatrix.getJspNum() + " jsp files.");
         exportFiles(sourcePath, targetPath, files);
     }
 
     public void filterUsecases(String sourcePath, String targetPath) {
         List<File> files = filterFiles(sourcePath, ansrMatrix.getUsecase(), "txt");
-//        System.out.println(files.size());
+        System.out.println(files.size() + " <- " + ansrMatrix.getUsecaseNum() + " usecase files.");
         exportFiles(sourcePath, targetPath, files);
     }
 
@@ -52,7 +52,6 @@ public class FileFilter {
                 }
             }
         }
-
         return targetFiles;
     }
 
@@ -65,9 +64,13 @@ public class FileFilter {
 
     public static void main(String[] args) {
         OracleMatrix ansrMatrix = new OracleMatrix(Path.ORACLE_TXT);
+
         FileFilter fileFilter = new FileFilter(ansrMatrix);
-        fileFilter.filterJavaFiles(Path.JAVA, Path.INVOLVED_JAVA);
-        fileFilter.filterJspFiles(Path.JSP, Path.INVOLVED_JSP);
+
+        System.out.println("Extracting artifacts from itrust projects mentioned in oralce ...");
+        fileFilter.filterJavaFiles(Path.ORIGIN_JAVA, Path.INVOLVED_JAVA);
+        fileFilter.filterJspFiles(Path.ORIGIN_JSP, Path.INVOLVED_JSP);
         fileFilter.filterUsecases(Path.ORIGIN_REQUIREMENT, Path.INVOLVED_REQUIREMENT);
+        System.out.println("Finish extracting.\n");
     }
 }
